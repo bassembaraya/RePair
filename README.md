@@ -6,8 +6,9 @@
 
 > **Heads up:** RePair has only been tested on a **Samsung Galaxy S24 Ultra** (Android 16).
 > It should work on other phones too, so please feel free to try it! If it works (or doesn't) on
-> your phone, I'd love to hear about it. Just [open an issue](../../issues) and tell me your phone
-> model. Every report helps.
+> your phone, I'd love to hear about it. Just [open an issue](../../issues) or email me at
+> [mcbaraya.dev@gmail.com](mailto:mcbaraya.dev@gmail.com) and tell me your phone model. Every
+> report helps.
 
 ## Why doesn't it connect? 🤔
 
@@ -114,4 +115,5 @@ RePair is made by Bassem Baraya, born out of a Renault that refused to talk to a
 This repository holds the app's releases and notes; the source code isn't published.
 
 Found a bug, or got it working on a new phone? [Open an issue](../../issues) with what happened
-(a screenshot of the log helps a lot). Thanks for trying it! 🙌
+(a screenshot of the log helps a lot), or email me at
+[mcbaraya.dev@gmail.com](mailto:mcbaraya.dev@gmail.com). Thanks for trying it! 🙌
