@@ -2,7 +2,7 @@
 
 ## 1.0.4 (2026-09-27)
 
-- The app shortcut is now called **Run RePair in background** (long press the icon, or in Samsung
+- The app shortcut is now called **Run RePair in the background** (long press the icon, or in Samsung
   Modes and Routines), to make clear it runs quietly without opening the app. Routines you
   already set up keep working.
 
