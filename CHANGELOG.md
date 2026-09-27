@@ -16,9 +16,3 @@ First release.
   Light, Dark or System theme.
 - **Setup checklist** and a **Help** screen with every step and error explained.
 - Works without root, through Shizuku. No internet permission.
-
-### Known issues
-- **Block saved networks during the run** (under *Turn off Wi-Fi if connected*) doesn't work yet:
-  Android doesn't allow it without root, even though the log says the networks were blocked. If
-  your phone jumps back to a saved Wi-Fi during a run, turn off *Auto reconnect* for that network
-  in Android's Wi-Fi settings.
