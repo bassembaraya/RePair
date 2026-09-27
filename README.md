@@ -87,6 +87,8 @@ results**.
 - **Samsung users**: switching USB to file transfer can stop Shizuku. To avoid that, dial
   `*#0808#` in the Phone app and choose **MTP + ADB**.
 - Stuck? The **Help** screen inside the app explains every step and every error message.
+- **Updates**: tap **Settings, About, Check for updates** to open the [releases page](../../releases/latest)
+  and see if there's a newer version. RePair never checks by itself.
 
 ## Privacy and battery 🔋
 

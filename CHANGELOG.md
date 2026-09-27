@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.3 (2026-09-27)
+
+- **Check for updates**: in **Settings, About**, one tap opens the releases page so you can see if
+  there's a newer version. RePair still has no internet permission and never checks by itself.
+
 ## 1.0.2 (2026-09-27)
 
 - **Block saved networks during the run now really works**, without root. From the moment Wi-Fi
