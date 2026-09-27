@@ -61,9 +61,9 @@ A run takes about 30 seconds (up to 2 minutes if your car is slow to wake up).
 - **The big button** in the app: *RePair Android Auto*. You can watch every step live, with a log.
 - **Quick Settings tile**: edit your Quick Settings panel and add the *RePair* tile. One tap and it
   runs in the background (your phone needs to be unlocked).
-- **App shortcut**: long press the RePair icon, then *Run RePair*.
+- **App shortcut**: long press the RePair icon, then *Run RePair in background*.
 - **Samsung Modes and Routines**: add an action: Apps, *Open an app or do an app action*, RePair,
-  *Run RePair*. Great for running it automatically when you get in the car!
+  *Run RePair in background*. It runs quietly without opening the app. Great for running it automatically when you get in the car!
 - **Tasker**: the *RePair* plugin action gives you:
   - `%repair_status`: `success`, `skipped` (Android Auto was already connected) or `fail`
   - `%repair_result`: the final message, or why it failed
