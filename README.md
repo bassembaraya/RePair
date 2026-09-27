@@ -4,11 +4,12 @@
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
-> **Supported phone:** Samsung Galaxy S24 Ultra (Android 16).
+> **Why I made RePair:** I built it to fix wireless Android Auto on my own Samsung Galaxy S24
+> Ultra (Android 16), and that's the phone it's tested on. I'm sharing it because it could be
+> useful on other Samsung phones with the same problem, and maybe on other phones too.
 >
-> RePair is built specifically for this phone. Support for other phones isn't planned, so if it
-> doesn't work on yours, it won't be adapted for it. You're still welcome to give it a try, and
-> if it works, enjoy! 🚗
+> Feel free to try it! Just keep in mind there are no plans to support other devices, so if it
+> doesn't work on yours, it may stay that way.
 
 ## Why doesn't it connect? 🤔
 
