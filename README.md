@@ -11,6 +11,10 @@
 > Feel free to try it! Just keep in mind there are no plans to support other devices, so if it
 > doesn't work on yours, it may stay that way.
 
+<p align="center">
+  <img src="images/main-screen.jpg" alt="RePair main screen" width="300">
+</p>
+
 ## Why doesn't it connect? 🤔
 
 Wireless Android Auto talks to your car over 5 GHz Wi-Fi. Your phone decides which Wi-Fi channels
