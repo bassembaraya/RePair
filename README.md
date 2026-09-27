@@ -38,6 +38,35 @@ A run takes about 30 seconds (up to 2 minutes if your car is slow to wake up).
   mobile signal.
 - If Android Auto is already connected, RePair doesn't touch anything.
 
+## Will it work for you? ✅
+
+RePair doesn't add anything new to your phone: it automates a trick that already works by hand.
+So before installing it, it's worth checking that the trick works for you. Two things must be true:
+
+**1. Your car and your phone must support wireless Android Auto.** RePair can't add wireless
+Android Auto to a car or a phone that doesn't have it. It only helps when the only thing in the
+way is the Wi-Fi country.
+
+**2. Your phone's region must be a country where wireless Android Auto works.** On Samsung this
+is the phone's CSC (region software), for example **INS** (India). When the mobile signal is gone,
+the phone falls back to this region's Wi-Fi rules, and that's what opens the car's 5 GHz channel.
+If your phone's region is the same country that blocks the channel, neither the manual way nor
+RePair will help.
+
+### Test it by hand first (no app needed)
+
+1. Turn on **airplane mode**.
+2. **Restart the phone.** It comes back still in airplane mode, without ever seeing the mobile
+   network, so Wi-Fi follows your phone's own region instead.
+3. Turn **Bluetooth** and **Wi-Fi** back on (airplane mode stays on).
+4. Start the car and let **wireless Android Auto** connect.
+5. Once Android Auto is running, turn **airplane mode off**. Your mobile signal comes back, and
+   Android Auto keeps working.
+
+**If this works, RePair will work for you too**, and it does all of it with one tap, with no
+restart. If Android Auto doesn't connect even this way, the problem is something RePair can't
+fix (the car, the phone, or the phone's region).
+
 ## What you need 📋
 
 - Android 12 or newer.
