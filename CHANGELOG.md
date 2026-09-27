@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.2 (2026-09-27)
+
+- **Block saved networks during the run now really works**, without root. From the moment Wi-Fi
+  turns on until Android Auto connects, your phone won't jump onto your home Wi-Fi or a hotspot.
+  The log now shows whether the block really took effect.
+- If the phone still manages to join a saved network during the run, RePair blocks again and
+  disconnects it instead of stopping.
+- If a run is ever cut off, saved networks are allowed again the next time RePair opens or runs.
+
 ## 1.0.1 (2026-09-27)
 
 - Updated the contact email in **Settings, About** to mcbaraya.dev@gmail.com.
