@@ -6,8 +6,9 @@
 
 > **Supported phone:** Samsung Galaxy S24 Ultra (Android 16).
 >
-> RePair is designed and tested for this phone. Other phones aren't officially supported: you're
-> welcome to try it, but fixes and new features will focus on the S24 Ultra only.
+> RePair is built specifically for this phone. Support for other phones isn't planned, so if it
+> doesn't work on yours, it won't be adapted for it. You're still welcome to give it a try, and
+> if it works, enjoy! 🚗
 
 ## Why doesn't it connect? 🤔
 
