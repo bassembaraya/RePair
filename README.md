@@ -89,6 +89,25 @@ results**.
   anything running either.
 - The log lives in memory only and is gone when you close the app.
 
+## Use at your own risk ⚠️
+
+RePair switches your phone's airplane mode, Wi-Fi and Bluetooth while it runs. It's built to
+always put things back, but it comes with no warranty: you use it at your own risk.
+
+## Credits 💙
+
+RePair is built with these great open-source projects:
+
+- [Shizuku](https://github.com/RikkaApps/Shizuku-API) by RikkaW, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [AndroidX and Jetpack Compose](https://developer.android.com/jetpack) by Google, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [Kotlin coroutines](https://github.com/Kotlin/kotlinx.coroutines) by JetBrains, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [Figtree font](https://github.com/erikdkennedy/figtree) by Erik Kennedy, [SIL Open Font License 1.1](licenses/Figtree-OFL.txt)
+
+## License 📄
+
+RePair is free to download and use. Please share a link to this page rather than the APK itself,
+and don't modify or resell the app. The full terms are in [LICENSE](LICENSE).
+
 ## About 👋
 
 RePair is made by Bassem Baraya, born out of a Renault that refused to talk to an Egyptian phone.
