@@ -1,5 +1,9 @@
 # What's new in RePair
 
+## 1.0.1 (2026-09-27)
+
+- Updated the contact email in **Settings, About** to mcbaraya.dev@gmail.com.
+
 ## 1.0.0 (2026-09-27)
 
 First release.
