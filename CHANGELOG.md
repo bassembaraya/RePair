@@ -1,5 +1,16 @@
 # What's new in RePair
 
+## 1.0.13 (2026-09-28)
+
+- Fixed Wi-Fi sometimes keeping the mobile network's country, so 5 GHz never opened. It happened
+  now and then, more often after a few runs in a row. RePair now keeps the country fallback on
+  while the mobile signal goes, so Wi-Fi always switches.
+- RePair now waits up to 30 seconds for 5 GHz to open (it still goes on as soon as it's open).
+- Bluetooth no longer turns off during the run (added in 1.0.11). Your watch or earbuds stay
+  connected.
+- A timer next to the steps shows how long the run takes and flashes when it ends.
+- The log's times line up, and some messages are clearer.
+
 ## 1.0.12 (2026-09-28)
 
 - More reliable on phones that turn Wi-Fi off in airplane mode: RePair now keeps Wi-Fi on during
