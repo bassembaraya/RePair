@@ -1,7 +1,9 @@
 # What's new in RePair
 
-## 1.0.9 (2026-09-28)
+## 1.0.10 (2026-09-28)
 
+- Fixed 5 GHz staying closed on some phones even though the Wi-Fi country had switched: RePair
+  now restarts Wi-Fi once when that happens.
 - **Disconnect Wi-Fi if connected** (was "Turn off Wi-Fi if connected"): RePair now disconnects
   from the network and keeps Wi-Fi on, which makes the switch to the fallback country more
   reliable.
