@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.11 (2026-09-28)
+
+- Fixed Android Auto sometimes not connecting after a run: Bluetooth now stays off until 5 GHz is
+  open, so the car can't connect too early. A watch or earbuds may disconnect for a few seconds
+  during the run.
+
 ## 1.0.10 (2026-09-28)
 
 - Fixed 5 GHz staying closed on some phones even though the Wi-Fi country had switched: RePair
