@@ -105,9 +105,12 @@ results**.
 
 ## Settings ⚙️
 
-- **Turn off Wi-Fi if connected** (off by default). Without it, a connected Wi-Fi stops the run.
-- **Block saved networks during the run** (needs the switch above). Keeps the phone from jumping
-  onto your home Wi-Fi or a hotspot during the run.
+- **Disconnect Wi-Fi if connected** (off by default). RePair disconnects from the network and
+  keeps saved networks from rejoining until the run ends. Without it, a connected Wi-Fi stops
+  the run.
+- **Block saved networks during the run** (needs the switch above). Also blocks them when Wi-Fi
+  wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
+  during the run.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
 - **Theme**: Light, Dark or System.
 

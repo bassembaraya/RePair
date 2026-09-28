@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.9 (2026-09-28)
+
+- **Disconnect Wi-Fi if connected** (was "Turn off Wi-Fi if connected"): RePair now disconnects
+  from the network and keeps Wi-Fi on, which makes the switch to the fallback country more
+  reliable.
+- The app icon now shows next to RePair's name on the main screen.
+
 ## 1.0.8 (2026-09-28)
 
 - Fixed a run stopping at "Wait for 5 GHz to open" on some phones, even though the Wi-Fi country
