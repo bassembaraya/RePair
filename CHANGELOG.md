@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.14 (2026-09-28)
+
+- When RePair can't turn on the Wi-Fi country fallback, the message now says why: Shizuku isn't
+  running, Android rejected it (with Android's own reply), or the phone doesn't support it. It
+  also tries a second time before giving up.
+
 ## 1.0.13 (2026-09-28)
 
 - Fixed Wi-Fi sometimes keeping the mobile network's country, so 5 GHz never opened. It happened
