@@ -116,12 +116,14 @@ results**.
 - **Samsung users**: switching USB to file transfer can stop Shizuku. To avoid that, dial
   `*#0808#` in the Phone app and choose **MTP + ADB**.
 - Stuck? The **Help** screen inside the app explains every step and every error message.
-- **Updates**: tap **Settings, About, Check for updates** to open the [releases page](../../releases/latest)
-  and see if there's a newer version. RePair never checks by itself.
+- **Updates**: when a new version is out, RePair tells you once when you open it, and a dot on the
+  **ⓘ** button reminds you until you update. You can also check any time from **ⓘ** or
+  **Settings, About** ([releases page](../../releases/latest)).
 
 ## Privacy and battery 🔋
 
-- RePair has **no internet permission**. It never sends anything anywhere.
+- RePair only goes online to **check GitHub for a newer version** when you open the app. Nothing
+  about you or your phone is sent, and runs from the tile, Routines or Tasker never go online.
 - Nothing runs in the background unless you start a run. The tile and the shortcut don't keep
   anything running either.
 - The log lives in memory only and is gone when you close the app.

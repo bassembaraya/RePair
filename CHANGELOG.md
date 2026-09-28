@@ -1,5 +1,9 @@
 # What's new in RePair
 
+## 1.0.7 (2026-09-28)
+
+- RePair now tells you when a new version is available.
+
 ## 1.0.6 (2026-09-28)
 
 - New ⓘ button on the main screen with app info, contact and updates.
