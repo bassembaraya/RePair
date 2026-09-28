@@ -2,9 +2,7 @@
 
 ## 1.0.5 (2026-09-28)
 
-- **Refreshed Settings screen**: a cleaner layout with your settings first, a new "Ways to run
-  RePair" section with clear steps for Samsung Modes and Routines, the Quick Settings tile, the
-  shortcut and Tasker, and an About card with version, contact and Check for updates.
+- UI improvements.
 
 ## 1.0.4 (2026-09-27)
 
