@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.6 (2026-09-28)
+
+- New ⓘ button on the main screen with app info, contact and updates.
+- Phones that don't show their fallback Wi-Fi country are no longer blocked: RePair shows a
+  warning and tries anyway.
+
 ## 1.0.5 (2026-09-28)
 
 - UI improvements.
