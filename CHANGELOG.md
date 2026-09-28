@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.8 (2026-09-28)
+
+- Fixed a run stopping at "Wait for 5 GHz to open" on some phones, even though the Wi-Fi country
+  had switched.
+
 ## 1.0.7 (2026-09-28)
 
 - RePair now tells you when a new version is available.
