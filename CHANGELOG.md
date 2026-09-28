@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.12 (2026-09-28)
+
+- More reliable on phones that turn Wi-Fi off in airplane mode: RePair now keeps Wi-Fi on during
+  the run and puts your phone's setting back afterwards.
+- RePair now waits up to 150 seconds for Android Auto (it still finishes as soon as it connects).
+
 ## 1.0.11 (2026-09-28)
 
 - Fixed Android Auto sometimes not connecting after a run: Bluetooth now stays off until 5 GHz is

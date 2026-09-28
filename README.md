@@ -31,7 +31,7 @@ RePair reconnects the car, waits for Android Auto to connect, and turns your mob
 And the best part: Android Auto keeps working after that, because the phone doesn't change the
 Wi-Fi country while it's connected.
 
-A run takes about 30 seconds (up to 2 minutes if your car is slow to wake up).
+A run takes about 30 seconds (up to 3 minutes if your car is slow to wake up).
 
 **It plays safe, too:**
 - If anything goes wrong, or you tap Stop, airplane mode is turned back off so you never lose your
