@@ -1,5 +1,19 @@
 # What's new in RePair
 
+## 1.0.15 (2026-09-29)
+
+- Run your own Tasker tasks around every run: in **Settings, Tasker tasks**, pick one to run
+  before (RePair waits for it, up to 30 seconds) and one to run after. The after task gets
+  `%repair_status`, `%repair_result`, `%repair_airplane_on` and `%repair_airplane_off`.
+- Tasker: `%repair_status` is now `true` or `false`, `%repair_result` is a few words (e.g.
+  "Android Auto connected"), and there are new `%repair_airplane_on` and `%repair_airplane_off`.
+  `%repair_airplane` is gone, so update tasks that used it or checked for success/fail. Every
+  variable is described in Tasker's variable list.
+- Clearer messages: no more raw error text, a plain reason when a phone isn't supported (e.g.
+  Android 12), and the first log line shows the RePair version, phone model and Android version.
+- The duplicate "Android Auto is connected" line at the end of a run is gone.
+- Help starts with a use at your own risk note and explains more messages.
+
 ## 1.0.14 (2026-09-28)
 
 - When RePair can't turn on the Wi-Fi country fallback, the message now says why: Shizuku isn't
