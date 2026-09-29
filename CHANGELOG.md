@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.16 (2026-09-29)
+
+- A run where Android Auto never connects now counts as failed: the last line is red, the step is
+  marked failed, and Tasker gets `%repair_status` = `false` and `%repair_result` = "Android Auto
+  didn't connect". It used to show a green "Done, but...". Airplane mode is still turned back off.
+- A step that went through with a problem now shows an orange **!** instead of a green check.
+- Error messages now say what to do next, and a few log colours were fixed so red always means
+  the run failed or you need to act.
+
 ## 1.0.15 (2026-09-29)
 
 - Run your own Tasker tasks around every run: in **Settings, Tasker tasks**, pick one to run
