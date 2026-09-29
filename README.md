@@ -12,8 +12,11 @@
 > doesn't work on yours, it may stay that way.
 
 <p align="center">
-  <img src="images/main-screen.jpg" alt="RePair main screen" width="300">
+  <img src="images/main-screen.jpg" alt="RePair main screen" width="260">
+  <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" width="260">
+  <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" width="260">
 </p>
+<p align="center"><em>The app, a Samsung routine that runs it when you get in the car, and the Tasker action.</em></p>
 
 ## Why doesn't it connect? 🤔
 
@@ -99,13 +102,6 @@ fix (the car, the phone, or the phone's region).
   - `%repair_airplane`: `true` if the run used airplane mode, `false` if it stopped before that
   - plus *Check status*, which reads `%repair_country`, `%repair_5ghz` and `%repair_fallback`
     without changing anything.
-
-<p align="center">
-  <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" width="280">
-  &nbsp;&nbsp;
-  <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" width="280">
-</p>
-<p align="center"><em>Left: a Samsung routine that runs RePair when you get in the car. Right: the RePair action in Tasker.</em></p>
 
 Want to know how a background run went? Turn on a toast or a notification in **Settings, Run
 results**.
