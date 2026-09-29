@@ -3,11 +3,12 @@
 **One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
 channel.** Built for Samsung phones. No root, uses Shizuku.
 
-How it works: normally Wi-Fi keeps the mobile network's country even in airplane mode, which is
-why the manual fix needs a restart. RePair turns on Android's hidden Wi-Fi country fallback, then
-airplane mode for a moment, so Wi-Fi switches straight to your phone's own region and the car's
-channel opens. Once Android Auto connects, airplane mode goes back off and Android Auto keeps
-working.
+How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi follows your
+phone's own region and the car's channel opens. Once Android Auto connects, everything goes back
+to normal and Android Auto keeps working.
+
+> ⚠️ **Use at your own risk.** RePair changes system settings through Shizuku. I'm not
+> responsible for any damage, data loss or a bricked phone.
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
@@ -143,8 +144,9 @@ results**.
 
 ## Use at your own risk ⚠️
 
-RePair switches your phone's airplane mode, Wi-Fi and Bluetooth while it runs. It's built to
-always put things back, but it comes with no warranty: you use it at your own risk.
+RePair changes your phone's airplane mode, Wi-Fi and system settings while it runs. It's built
+to always put things back, but it comes with no warranty of any kind. You use it entirely at your
+own risk, and I'm not responsible for any damage, data loss or a bricked phone.
 
 ## Credits 💙
 
