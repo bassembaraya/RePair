@@ -105,11 +105,18 @@ fix (the car, the phone, or the phone's region).
 - **Samsung Modes and Routines**: add an action: Apps, *Open an app or do an app action*, RePair,
   *Run RePair in the background*. It runs quietly without opening the app. Great for running it automatically when you get in the car!
 - **Tasker**: the *RePair* plugin action gives you:
-  - `%repair_status`: `success`, `skipped` (Android Auto was already connected) or `fail`
-  - `%repair_result`: the final message, or why it failed
-  - `%repair_airplane`: `true` if the run used airplane mode, `false` if it stopped before that
-  - plus *Check status*, which reads `%repair_country`, `%repair_5ghz` and `%repair_fallback`
-    without changing anything.
+  - `%repair_status`: `true` if the run worked (or Android Auto was already connected), `false`
+    if it failed
+  - `%repair_result`: a few words on how it ended, e.g. `Android Auto connected` or
+    `Shizuku isn't running`
+  - `%repair_airplane_on`: `true` if the run turned airplane mode on, `false` if it stopped
+    before that
+  - `%repair_airplane_off`: `true` if airplane mode is off when the run ends, `false` if it's
+    still on
+  - `%errmsg`: only on failure, the same text as `%repair_result`
+  - plus *Check status*, which changes nothing and reads `%repair_country` (the Wi-Fi country
+    in use, e.g. `EG` or `IN`), `%repair_5ghz` (`true` if 5 GHz is open) and `%repair_fallback`
+    (`true` if the Wi-Fi country fallback is applied).
 
 Want to know how a background run went? Turn on a toast or a notification in **Settings, Run
 results**.
