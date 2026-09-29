@@ -100,6 +100,13 @@ fix (the car, the phone, or the phone's region).
   - plus *Check status*, which reads `%repair_country`, `%repair_5ghz` and `%repair_fallback`
     without changing anything.
 
+<p align="center">
+  <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" width="280">
+  &nbsp;&nbsp;
+  <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" width="280">
+</p>
+<p align="center"><em>Left: a Samsung routine that runs RePair when you get in the car. Right: the RePair action in Tasker.</em></p>
+
 Want to know how a background run went? Turn on a toast or a notification in **Settings, Run
 results**.
 
