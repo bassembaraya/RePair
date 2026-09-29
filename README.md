@@ -130,6 +130,10 @@ results**.
   wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
   during the run.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
+- **Tasker tasks**: pick one of your own Tasker tasks to run before every run (RePair waits for
+  it, up to 30 seconds) and one to run after it. The after task gets `%repair_status`,
+  `%repair_result`, `%repair_airplane_on` and `%repair_airplane_off`, so it can react to how the
+  run went. Needs Tasker's *Allow External Access* (Preferences, Misc).
 - **Theme**: Light, Dark or System.
 
 ## Handy tips 💡
