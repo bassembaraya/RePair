@@ -1,6 +1,11 @@
 # RePair 🚗📶
 
-**Your car's wireless Android Auto won't connect? RePair fixes it with one tap.** No root needed.
+**One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
+channel.** Built for Samsung phones. No root, uses Shizuku.
+
+How it works: RePair turns on airplane mode for a moment, so Wi-Fi follows your phone's own region
+instead of the mobile network's country, and the car's channel opens. Once Android Auto connects,
+airplane mode goes back off and Android Auto keeps working.
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
