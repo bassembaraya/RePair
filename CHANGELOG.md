@@ -3,6 +3,7 @@
 ## 1.0.22 (2026-09-30)
 
 - About: the Update button is on its own line, so the text around it no longer wraps.
+- About: even space above and below the Close button.
 
 ## 1.0.21 (2026-09-30)
 
