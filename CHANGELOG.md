@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.19 (2026-09-30)
+
+- RePair now also checks for a new version when you switch back to it from recents, not only
+  when you open it fresh. A version you've already been told about isn't shown again.
+
 ## 1.0.18 (2026-09-30)
 
 - Updating is one tap now: **Update** downloads the new version inside RePair and opens Android's
