@@ -1,5 +1,9 @@
 # What's new in RePair
 
+## 1.0.20 (2026-09-30)
+
+- A new app icon. Its symbol is also next to the name at the top of RePair.
+
 ## 1.0.19 (2026-09-30)
 
 - RePair now also checks for a new version when you switch back to it from recents, not only
