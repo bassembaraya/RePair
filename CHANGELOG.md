@@ -1,5 +1,9 @@
 # What's new in RePair
 
+## 1.0.22 (2026-09-30)
+
+- About: the Update button is on its own line, so the text around it no longer wraps.
+
 ## 1.0.21 (2026-09-30)
 
 - The Quick Settings tile uses the new symbol too.
