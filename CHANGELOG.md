@@ -1,5 +1,13 @@
 # What's new in RePair
 
+## 1.0.18 (2026-09-30)
+
+- Updating is one tap now: **Update** downloads the new version inside RePair and opens Android's
+  installer. No browser, no file to find. The first time, Android asks you to allow RePair to
+  install apps.
+- **Check for updates** in About checks right there and tells you if you're up to date.
+- About has links to RePair on GitHub and to this changelog.
+
 ## 1.0.17 (2026-09-30)
 
 - If 5 GHz doesn't open, the run now stops right there and says so, instead of waiting for

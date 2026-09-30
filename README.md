@@ -144,13 +144,16 @@ results**.
   `*#0808#` in the Phone app and choose **MTP + ADB**.
 - Stuck? The **Help** screen inside the app explains every step and every error message.
 - **Updates**: when a new version is out, RePair tells you once when you open it, and a dot on the
-  **ⓘ** button reminds you until you update. You can also check any time from **ⓘ** or
-  **Settings, About** ([releases page](../../releases/latest)).
+  **ⓘ** button reminds you until you update. Tap **Update** and RePair downloads it and opens
+  Android's installer for you (the first time, Android asks you to allow RePair to install apps).
+  You can also check any time from **ⓘ** or **Settings, About**, or get it from the
+  [releases page](../../releases/latest).
 
 ## Privacy and battery 🔋
 
-- RePair only goes online to **check GitHub for a newer version** when you open the app. Nothing
-  about you or your phone is sent, and runs from the tile, Routines or Tasker never go online.
+- RePair only goes online to **check GitHub for a newer version** when you open the app, and to
+  download an update when you tap Update. Nothing about you or your phone is sent, and runs from
+  the tile, Routines or Tasker never go online.
 - Nothing runs in the background unless you start a run. The tile and the shortcut don't keep
   anything running either.
 - The log lives in memory only and is gone when you close the app.
