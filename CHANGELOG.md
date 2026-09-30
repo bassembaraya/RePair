@@ -1,5 +1,9 @@
 # What's new in RePair
 
+## 1.0.21 (2026-09-30)
+
+- The Quick Settings tile uses the new symbol too.
+
 ## 1.0.20 (2026-09-30)
 
 - A new app icon. Its symbol is also next to the name at the top of RePair.
