@@ -10,7 +10,7 @@
   back off.
 - The wait for Android Auto is 60 seconds instead of 150, and you can set it from 10 to 60
   seconds in **Settings, During a run**.
-- Thin lines and card borders are easier to see.
+- Thin lines and card borders are easier to see, and the spacing around the Shizuku status is even.
 
 ## 1.0.16 (2026-09-29)
 
