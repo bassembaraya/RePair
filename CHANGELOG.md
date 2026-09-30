@@ -4,6 +4,7 @@
 
 - About: the Update button is on its own line, so the text around it no longer wraps.
 - About: even space above and below the Close button.
+- The Quick Settings tile's symbol is as big as the other tiles' icons.
 
 ## 1.0.21 (2026-09-30)
 
