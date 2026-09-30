@@ -1,5 +1,17 @@
 # What's new in RePair
 
+## 1.0.17 (2026-09-30)
+
+- If 5 GHz doesn't open, the run now stops right there and says so, instead of waiting for
+  Android Auto.
+- A clear result under the run's title: Done, Failed (with the reason) or Stopped.
+- Simpler step names and log lines, and the log shows the 5 GHz channels before and after.
+- After a failure, the steps show what really happened, including airplane mode being turned
+  back off.
+- The wait for Android Auto is 60 seconds instead of 150, and you can set it from 10 to 60
+  seconds in **Settings, During a run**.
+- Thin lines and card borders are easier to see.
+
 ## 1.0.16 (2026-09-29)
 
 - A run where Android Auto never connects now counts as failed: the last line is red, the step is

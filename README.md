@@ -36,13 +36,13 @@ phone simply can't see the car's Wi-Fi, and Android Auto waits forever.
 ## What RePair does ✨
 
 With one tap, RePair makes your phone forget the mobile network's country for a moment. Wi-Fi then
-switches to your phone's own fallback country (for example India), and the 5 GHz channels open up.
+switches to your phone's own Wi-Fi country (for example India), and the 5 GHz channels open up.
 RePair reconnects the car, waits for Android Auto to connect, and turns your mobile network back on.
 
 And the best part: Android Auto keeps working after that, because the phone doesn't change the
 Wi-Fi country while it's connected.
 
-A run takes about 30 seconds (up to 3 minutes if your car is slow to wake up).
+A run takes about 30 seconds (up to a minute and a half if your car is slow to wake up).
 
 **It plays safe, too:**
 - If anything goes wrong, or you tap Stop, airplane mode is turned back off so you never lose your
@@ -129,6 +129,8 @@ results**.
 - **Block saved networks during the run** (needs the switch above). Also blocks them when Wi-Fi
   wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
   during the run.
+- **Wait for Android Auto**: how long RePair waits for Android Auto to connect before it gives up,
+  from 10 to 60 seconds (60 by default). It stops waiting as soon as Android Auto connects.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
 - **Tasker tasks**: pick one of your own Tasker tasks to run before every run (RePair waits for
   it, up to 30 seconds) and one to run after it. The after task gets `%repair_status`,
