@@ -160,8 +160,9 @@ results**.
 - Nothing runs in the background unless you start a run. The tile and the shortcut don't keep
   anything running either.
 - The log on the screen is gone when you close the app. Each run also writes a detailed log file
-  on your phone, replaced by the next run. It includes your Wi-Fi network names and your car's
-  Bluetooth name, and it never leaves your phone unless you share it yourself.
+  on your phone, replaced by the next run, and RePair keeps a short history of app events (like
+  updates and errors). They include your Wi-Fi network names, the Wi-Fi networks around you and
+  your car's Bluetooth name, and they never leave your phone unless you share them yourself.
 
 ## Use at your own risk ⚠️
 

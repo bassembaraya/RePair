@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.24 (2026-10-01)
+
+- The shared log now tells much more: the Wi-Fi status and nearby networks at key moments,
+  every Wi-Fi join and leave during a run, and a short history of app events between runs
+  (updates, problems and crashes).
+- With "Block saved networks during the run" on, saved networks now stay blocked until the
+  run ends. The phone could undo the block by itself when Bluetooth turned off, and join a
+  saved network (like a hotspot) in the middle of a run.
+
 ## 1.0.23 (2026-10-01)
 
 - If the phone joins your car's 5 GHz Wi-Fi during a run, RePair now keeps it instead of
