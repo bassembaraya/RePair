@@ -1,5 +1,13 @@
 # What's new in RePair
 
+## 1.0.23 (2026-10-01)
+
+- If the phone joins your car's 5 GHz Wi-Fi during a run, RePair now keeps it instead of
+  disconnecting it.
+- RePair no longer stops a run just because the phone doesn't list its 5 GHz channels after
+  switching country. Android Auto connecting shows whether it worked.
+- New share icon at the top: send the last run's detailed log file, to help find out what went wrong.
+
 ## 1.0.22 (2026-09-30)
 
 - About: the Update button is on its own line, so the text around it no longer wraps.
