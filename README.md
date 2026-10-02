@@ -143,8 +143,8 @@ results**.
 - **Samsung users**: switching USB to file transfer can stop Shizuku. To avoid that, dial
   `*#0808#` in the Phone app and choose **MTP + ADB**.
 - Stuck? The **Help** screen inside the app explains every step and every error message.
-- Something went wrong? Tap the **share** icon at the top to send me the last run's detailed log
-  file. It shows exactly what happened, far more than the screen does.
+- Something went wrong? Tap the **share** icon at the top to send me the detailed log of your last
+  5 runs. It shows exactly what happened, far more than the screen does.
 - **Updates**: when a new version is out, RePair tells you once when you open it or switch back to it, and a dot on the
   **ⓘ** button reminds you until you update. Tap **Update** and RePair downloads it and opens
   Android's installer for you (the first time, Android asks you to allow RePair to install apps).
@@ -159,9 +159,9 @@ results**.
   the tile, Routines or Tasker never go online.
 - Nothing runs in the background unless you start a run. The tile and the shortcut don't keep
   anything running either.
-- The log on the screen is gone when you close the app. Each run also writes a detailed log file
-  on your phone, replaced by the next run, and RePair keeps a short history of app events (like
-  updates and errors). They include your Wi-Fi network names, the Wi-Fi networks around you and
+- The log on the screen is gone when you close the app. RePair also keeps a detailed log of your
+  last 5 runs on your phone, and a short history of app events (like updates and errors). They
+  include your Wi-Fi network names, the Wi-Fi networks around you and
   your car's Bluetooth name, and they never leave your phone unless you share them yourself.
 
 ## Use at your own risk ⚠️
