@@ -1,5 +1,26 @@
 # What's new in RePair
 
+## 1.0.25 (2026-10-02)
+
+- RePair now recognizes a working Android Auto on more phones. On some phones it reported a
+  connection that worked as failed, or interrupted one that was already running.
+- If your phone joins a saved Wi-Fi (like your home Wi-Fi) during a run instead of the car's, RePair
+  no longer reports success. It says so and tells you which settings to turn on.
+- After the phone joins the car's Wi-Fi, RePair waits up to 30 seconds for Android Auto to start,
+  and only reports success once it has.
+- If Android Auto drops when airplane mode turns off, RePair waits for it to come back, and tells
+  you if it doesn't.
+- Saved networks now stay blocked until Android Auto has started.
+- New setting: "Turn Bluetooth off and on before connecting the car" (off by default), for cars that
+  stay connected over Bluetooth and then don't start Android Auto. If a run fails that way, RePair
+  offers it once.
+- If RePair's Shizuku helper doesn't answer at first, RePair asks once more after 2
+  seconds instead of failing.
+- About: "You're up to date" fits on one line, the details line up on the left, and the box is a
+  little wider.
+- The run log lists all your settings, says whether the car's Bluetooth stayed connected, and
+  records more about Android Auto. The shared log now holds your last 5 runs.
+
 ## 1.0.24 (2026-10-01)
 
 - The shared log now tells much more: the Wi-Fi status and nearby networks at key moments,

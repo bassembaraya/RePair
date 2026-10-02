@@ -129,8 +129,11 @@ results**.
 - **Block saved networks during the run** (needs the switch above). Also blocks them when Wi-Fi
   wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
   during the run.
-- **Wait for Android Auto**: how long RePair waits for Android Auto to connect before it gives up,
-  from 10 to 60 seconds (60 by default). It stops waiting as soon as Android Auto connects.
+- **Turn Bluetooth off and on before connecting the car** (off by default). For cars that stay
+  connected over Bluetooth through the run and then don't start Android Auto. Other Bluetooth
+  devices drop for a few seconds. If a run fails that way, RePair offers to turn it on (once).
+- **Wait for Android Auto**: how long RePair waits for the phone to join the car's Wi-Fi before it
+  gives up, from 10 to 60 seconds (60 by default). It stops waiting as soon as the phone joins.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
 - **Tasker tasks**: pick one of your own Tasker tasks to run before every run (RePair waits for
   it, up to 30 seconds) and one to run after it. The after task gets `%repair_status`,
