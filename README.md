@@ -21,7 +21,7 @@ to normal and Android Auto keeps working.
 
 <p align="center">
   <img src="images/main-screen.jpg" alt="RePair main screen" height="434">
-  <img src="images/settings.jpg" alt="RePair settings: Wi-Fi and Bluetooth options before a run, the wait for Android Auto, and run results" height="434">
+  <img src="images/settings-v2.jpg" alt="RePair settings: Wi-Fi and Bluetooth options before a run, the wait for Android Auto, and run results" height="434">
   <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" height="434">
   <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" height="434">
 </p>
