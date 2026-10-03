@@ -20,11 +20,12 @@ to normal and Android Auto keeps working.
 > doesn't work on yours, it may stay that way.
 
 <p align="center">
-  <img src="images/main-screen.jpg" alt="RePair main screen" width="260">
-  <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" width="260">
-  <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" width="260">
+  <img src="images/main-screen.jpg" alt="RePair main screen" width="200">
+  <img src="images/settings.jpg" alt="RePair settings: Wi-Fi and Bluetooth options before a run, the wait for Android Auto, and run results" width="200">
+  <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" width="200">
+  <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" width="200">
 </p>
-<p align="center"><em>The app, a Samsung routine that runs it when you get in the car, and the Tasker action.</em></p>
+<p align="center"><em>The app, its settings, a Samsung routine that runs it when you get in the car, and the Tasker action.</em></p>
 
 ## Why doesn't it connect? 🤔
 
