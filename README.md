@@ -81,7 +81,8 @@ fix (the car, the phone, or the phone's region).
 
 ## What you need 📋
 
-- Android 12 or newer.
+- Android 14 or newer, with the latest system updates. It installs on Android 12 and 13 too, but
+  the Wi-Fi country switch it needs may be missing there, and RePair tells you if it is.
 - [Shizuku](https://shizuku.rikka.app/) installed and running. It needs a quick restart after
   every phone reboot.
 - A phone region (CSC) whose country allows your car's channel, like **INS** (India). Don't worry,
