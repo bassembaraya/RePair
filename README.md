@@ -85,8 +85,8 @@ fix (the car, the phone, or the phone's region).
   the Wi-Fi country switch it needs may be missing there, and RePair tells you if it is.
 - [Shizuku](https://shizuku.rikka.app/) installed and running. It needs a quick restart after
   every phone reboot.
-- A phone region (CSC) whose country allows your car's channel, like **INS** (India). Don't worry,
-  RePair checks this for you.
+- A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
+  **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
 - Your car paired with your phone over Bluetooth.
 
 ## Getting started 🚀
