@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.26 (2026-10-07)
+
+- Faster runs: 5 GHz opens and the car connects a few seconds sooner. RePair now checks the
+  Wi-Fi with lighter reads while it waits, so it notices the switch sooner and doesn't slow the
+  phone down.
+- The log shows the Wi-Fi switch time in tenths of a second.
+
 ## 1.0.25 (2026-10-02)
 
 - RePair now recognizes a working Android Auto on more phones. On some phones it reported a
