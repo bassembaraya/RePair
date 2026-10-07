@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.27 (2026-10-07)
+
+- If you're on a call when a run starts, RePair now waits for the call to end, so it never cuts
+  it. You can choose Run anyway, Wait or Don't run in Settings, On a call.
+- After an update with something new for you, RePair shows a short "What's new" once.
+
 ## 1.0.26 (2026-10-07)
 
 - Faster runs: 5 GHz opens and the car connects a few seconds sooner. RePair now checks the
