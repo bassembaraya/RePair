@@ -126,7 +126,8 @@ results**.
 ## Settings ⚙️
 
 - **On a call** (Wait by default). Airplane mode would end your call, so RePair waits for it to
-  end before it starts (up to 30 minutes). You can also choose Run anyway or Don't run.
+  end before it starts, for up to 60 minutes (you can set 5 to 120). You can also choose Run
+  anyway or Don't run.
 - **Disconnect Wi-Fi if connected** (off by default). RePair disconnects from the network and
   keeps saved networks from rejoining until the run ends. Without it, a connected Wi-Fi stops
   the run.

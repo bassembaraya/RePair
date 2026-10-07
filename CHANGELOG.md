@@ -3,7 +3,8 @@
 ## 1.0.27 (2026-10-07)
 
 - If you're on a call when a run starts, RePair now waits for the call to end, so it never cuts
-  it. You can choose Run anyway, Wait or Don't run in Settings, On a call.
+  it. You can choose Run anyway, Wait or Don't run in Settings, On a call, and how long it waits
+  (up to 2 hours, 1 hour by default).
 - After an update with something new for you, RePair shows a short "What's new" once.
 
 ## 1.0.26 (2026-10-07)
