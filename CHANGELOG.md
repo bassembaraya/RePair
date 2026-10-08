@@ -1,5 +1,15 @@
 # What's new in RePair
 
+## 1.0.29 (2026-10-09)
+
+- New: Map behind the wheel (Settings > During a run, off by default). Made for the Renault
+  Austral, which shows the map behind the steering wheel only after a navigation has started:
+  when Android Auto connects, RePair starts a short Google Maps navigation on the car screen and
+  ends it after 2 s, so the map stays there. It works with the phone locked and opens nothing on
+  the phone. It takes about 15 s, as Google Maps counts down before it starts.
+- Turning the car off and on again quickly no longer makes RePair cut Android Auto's connection:
+  RePair now waits for Android Auto to reconnect by itself.
+
 ## 1.0.28 (2026-10-08)
 
 - RePair can start your Samsung routines: one when a run starts and one when it ends. Pick them
