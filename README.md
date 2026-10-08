@@ -140,6 +140,10 @@ results**.
 - **Wait for Android Auto**: how long RePair waits for the phone to join the car's Wi-Fi before it
   gives up, from 10 to 60 seconds (60 by default). It stops waiting as soon as the phone joins.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
+- **Samsung routines**: pick one of your Samsung routines to start when a run starts and one to
+  start when it ends. Only routines that you start manually can be picked (with just one, it's
+  picked right away). If you rename one, RePair shows the new name; if you delete it, Settings
+  tells you to pick another.
 - **Tasker tasks**: pick one of your own Tasker tasks to run before every run (RePair waits for
   it, up to 30 seconds) and one to run after it. The after task gets `%repair_status`,
   `%repair_result`, `%repair_airplane_on` and `%repair_airplane_off`, so it can react to how the

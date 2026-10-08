@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.28 (2026-10-08)
+
+- RePair can start your Samsung routines: one when a run starts and one when it ends. Pick them
+  in Settings > Samsung routines. Only routines that you start manually can be picked.
+- Settings is easier to read: each group now sits in its own card.
+- The "What's new" message is shorter and easier to read.
+
 ## 1.0.27 (2026-10-07)
 
 - If you're on a call when a run starts, RePair now waits for the call to end, so it never cuts
