@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.32 (2026-10-09)
+
+- Map behind the wheel is removed for now: Google Play Protect started blocking RePair from being
+  installed because of it. It may come back once it works without that. Everything else works as
+  before.
+- After an update that skips versions, the "What's new" title now says "What's new since your
+  last update", so older news isn't shown as part of the newest version.
+- "What's new" now lists the newest changes first.
+
 ## 1.0.31 (2026-10-09)
 
 - The message "RePair (version) is available" now comes back each time you open RePair, until
