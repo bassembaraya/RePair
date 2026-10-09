@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.33 (2026-10-09)
+
+- Map behind the wheel is back. Google Play Protect no longer blocks installing RePair because
+  of it. Turn it on in Settings > During a run.
+
 ## 1.0.32 (2026-10-09)
 
 - Map behind the wheel is removed for now: Google Play Protect started blocking RePair from being
