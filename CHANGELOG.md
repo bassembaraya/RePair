@@ -3,7 +3,7 @@
 ## 1.0.30 (2026-10-09)
 
 - Only for Map behind the wheel: Google Maps no longer adds a new place to its history every
-  time. It now uses the same place every time.
+  time.
 - Only for Map behind the wheel: it no longer says "You've arrived" when you start near that
   place.
 
