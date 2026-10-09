@@ -139,11 +139,6 @@ results**.
   devices drop for a few seconds. If a run fails that way, RePair offers to turn it on (once).
 - **Wait for Android Auto**: how long RePair waits for the phone to join the car's Wi-Fi before it
   gives up, from 10 to 60 seconds (60 by default). It stops waiting as soon as the phone joins.
-- **Map behind the wheel** (off by default). Made for the Renault Austral, which shows the map
-  behind the steering wheel only after a navigation has started. When Android Auto connects,
-  RePair starts a short Google Maps navigation on the car screen and ends it after 2 seconds, so
-  the map stays there. It works with the phone locked and opens nothing on the phone. It takes
-  about 15 seconds, as Google Maps counts down before it starts. *Try now* runs it at home.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
 - **Samsung routines**: pick one of your Samsung routines to start when a run starts and one to
   start when it ends. Only routines that you start manually can be picked (with just one, it's
