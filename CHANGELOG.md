@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.31 (2026-10-09)
+
+- The message "RePair (version) is available" now comes back each time you open RePair, until
+  you tap Update or Later. Before, it showed only once and was easy to miss.
+- After an update that skips versions, "What's new" now shows everything you missed, not only
+  the most important points.
+
 ## 1.0.30 (2026-10-09)
 
 - Only for Map behind the wheel: Google Maps no longer adds a new place to its history every
