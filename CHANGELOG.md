@@ -4,8 +4,8 @@
 
 - Only for Map behind the wheel: Google Maps no longer adds a new place to its history every
   time.
-- Only for Map behind the wheel: it no longer says "You've arrived" when you start near that
-  place.
+- Only for Map behind the wheel: Google Maps no longer says "You've arrived" when you start
+  near the place where you first used it.
 
 ## 1.0.29 (2026-10-09)
 
