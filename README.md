@@ -10,6 +10,20 @@ to normal and Android Auto keeps working.
 > ⚠️ **Use at your own risk.** RePair changes system settings through its helper. I'm not
 > responsible for any damage, data loss or a bricked phone.
 
+## Ghostack, RePair's helper 👻
+
+RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
+airplane mode). For that it needs a helper with more rights than a normal app.
+
+- **Ghostack is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
+  No computer needed.
+- **It connects again by itself** after a restart, when the phone joins Wi-Fi.
+- **It's optional.** RePair needs one helper: Ghostack or [Shizuku](https://shizuku.rikka.app/).
+  Shizuku still works if you prefer it: **Settings > Helper**. (Shizuku has to be started again
+  after every restart. Ghostack doesn't.)
+- **Already set up in another of your apps?** Tap **Use Ghostack pairing**, then **Allow**. No
+  code needed.
+
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
 > **Why I made RePair:** I built it to fix wireless Android Auto on my own Samsung Galaxy S24

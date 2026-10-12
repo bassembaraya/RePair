@@ -2,31 +2,26 @@
 
 ## 1.0.37 (2026-10-12)
 
-- Ghostack: after a restart or on Wi-Fi, RePair now waits its own few seconds before connecting,
-  so it doesn't get in the way of other apps that use the same pairing.
+### New: Ghostack, RePair's own helper
 
-## 1.0.36 (2026-10-12)
+RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
+airplane mode). For that it needs a helper with more rights than a normal app.
 
-- Ghostack: the card that offers Ghostack now also has "Use Shizuku", to keep using Shizuku. The
-  card then doesn't show again.
+- **Ghostack is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
+  No computer needed.
+- **It connects again by itself** after a restart, when the phone joins Wi-Fi.
+- **It's optional.** RePair needs one helper: Ghostack or [Shizuku](https://shizuku.rikka.app/).
+  Shizuku still works if you prefer it: **Settings > Helper**. (Shizuku has to be started again
+  after every restart. Ghostack doesn't.)
+- **Already set up in another of your apps?** Tap **Use Ghostack pairing**, then **Allow**. No
+  code needed.
 
-## 1.0.35 (2026-10-12)
-
-- Ghostack: the box at the top now looks the same as in the developer's other apps.
-- Ghostack already set up in another app? One button, "Use Ghostack pairing", then Allow.
-- Ghostack: "Waiting for the pairing code" now shows in full, with Open and Cancel buttons.
-- Ghostack: setting up through another app works better on phones where port 5555 is open, and
-  says clearly when Wireless debugging must be turned on once.
-- Ghostack stops by itself when RePair is uninstalled.
-
-## 1.0.34 (2026-10-12)
+### Also in this version
 
 - Map behind the wheel no longer touches Google Maps when it's already navigating, so a route
   you started keeps going.
 - New installs: "Disconnect Wi-Fi if connected" and "Block saved networks during the run" are now
   on from the start. If you already use RePair, your settings stay as they are.
-- New: Ghostack, RePair's own helper. No Shizuku needed: set it up once, and after a restart it
-  connects again by itself on Wi-Fi. Shizuku still works (Settings > Helper).
 - RePair's notifications now always show in full, with an "Open RePair" button, and they clear
   when you open RePair.
 
