@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.37 (2026-10-12)
+
+- Ghostack: after a restart or on Wi-Fi, RePair now waits its own few seconds before connecting,
+  so it doesn't get in the way of other apps that use the same pairing.
+
 ## 1.0.36 (2026-10-12)
 
 - Ghostack: the card that offers Ghostack now also has "Use Shizuku", to keep using Shizuku. The
