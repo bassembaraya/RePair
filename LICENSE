@@ -15,6 +15,8 @@ Wi-Fi and Bluetooth while it runs. You use it at your own risk, and the author i
 damage, data loss or other problem that comes from using it.
 
 RePair includes open-source components that keep their own licenses. See "Credits" in README.md
-and the files in the licenses folder.
+and the files in the licenses folder. Where a component's own license gives you more rights
+(spake2-java, under the GNU LGPL 3.0), those rights apply to that component and aren't limited by
+the list above.
 
 Questions, or want permission for something not allowed above? Email mcbaraya.dev@gmail.com.

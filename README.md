@@ -1,13 +1,13 @@
 # RePair 🚗📶
 
 **One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
-channel.** Built for Samsung phones. No root, uses Shizuku.
+channel.** Built for Samsung phones. No root: uses Ghostack, RePair's own helper (or Shizuku).
 
 How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi follows your
 phone's own region and the car's channel opens. Once Android Auto connects, everything goes back
 to normal and Android Auto keeps working.
 
-> ⚠️ **Use at your own risk.** RePair changes system settings through Shizuku. I'm not
+> ⚠️ **Use at your own risk.** RePair changes system settings through its helper. I'm not
 > responsible for any damage, data loss or a bricked phone.
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
@@ -83,8 +83,9 @@ fix (the car, the phone, or the phone's region).
 
 - Android 14 or newer, with the latest system updates. It installs on Android 12 and 13 too, but
   the Wi-Fi country switch it needs may be missing there, and RePair tells you if it is.
-- [Shizuku](https://shizuku.rikka.app/) installed and running. It needs a quick restart after
-  every phone reboot.
+- Wi-Fi and Developer options, to set up **Ghostack** once: RePair's own helper, set up on the
+  phone, no computer needed. After a restart it connects again by itself when the phone joins
+  Wi-Fi. Prefer [Shizuku](https://shizuku.rikka.app/)? It still works (Settings > Helper).
 - A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
   **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
 - Your car paired with your phone over Bluetooth.
@@ -93,10 +94,11 @@ fix (the car, the phone, or the phone's region).
 
 1. Download `RePair-x.y.z.apk` from [Releases](../../releases/latest) and install it. If Android
    asks, allow installing from your browser or file manager.
-2. Open Shizuku and tap **Start** (with Wireless debugging).
-3. Open RePair and allow the Shizuku permission.
-4. Tap **Choose**, allow Nearby devices, and pick your car.
-5. That's it! The checklist on the main screen tells you if anything is still missing.
+2. Open RePair and set up **Ghostack**: connect to Wi-Fi, tap **Pair**, then *Pair device with
+   pairing code* in Wireless debugging, and type the code in RePair's notification. RePair shows
+   how to turn on Developer options if they're off. (Prefer Shizuku? Tap *Use Shizuku instead*.)
+3. Tap **Choose**, allow Nearby devices, and pick your car.
+4. That's it! The checklist on the main screen tells you if anything is still missing.
 
 ## Five ways to run it 🎛️
 
@@ -110,7 +112,7 @@ fix (the car, the phone, or the phone's region).
   - `%repair_status`: `true` if the run worked (or Android Auto was already connected), `false`
     if it failed
   - `%repair_result`: a few words on how it ended, e.g. `Android Auto connected` or
-    `Shizuku isn't running`
+    `Ghostack not connected`
   - `%repair_airplane_on`: `true` if the run turned airplane mode on, `false` if it stopped
     before that
   - `%repair_airplane_off`: `true` if airplane mode is off when the run ends, `false` if it's
@@ -128,10 +130,10 @@ results**.
 - **On a call** (Wait by default). Airplane mode would end your call, so RePair waits for it to
   end before it starts, for up to 60 minutes (you can set 5 to 120). You can also choose Run
   anyway or Don't run.
-- **Disconnect Wi-Fi if connected** (off by default). RePair disconnects from the network and
+- **Disconnect Wi-Fi if connected** (on by default). RePair disconnects from the network and
   keeps saved networks from rejoining until the run ends. Without it, a connected Wi-Fi stops
   the run.
-- **Block saved networks during the run** (needs the switch above). Also blocks them when Wi-Fi
+- **Block saved networks during the run** (needs the switch above, on by default). Also blocks them when Wi-Fi
   wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
   during the run.
 - **Turn Bluetooth off and on before connecting the car** (off by default). For cars that stay
@@ -192,6 +194,10 @@ own risk, and I'm not responsible for any damage, data loss or a bricked phone.
 RePair is built with these great open-source projects:
 
 - [Shizuku](https://github.com/RikkaApps/Shizuku-API) by RikkaW, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [libadb-android](https://github.com/MuntashirAkon/libadb-android) by Muntashir Al-Islam, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [spake2-java](https://github.com/MuntashirAkon/spake2-java) by Muntashir Al-Islam, [GNU LGPL 3.0](licenses/LGPL-3.0.txt) (with the [GPL 3.0](licenses/GPL-3.0.txt) it builds on)
+- [Conscrypt](https://github.com/google/conscrypt) by Google, [Apache License 2.0](licenses/Apache-2.0.txt)
+- [Bouncy Castle](https://www.bouncycastle.org), [MIT License](licenses/BouncyCastle-MIT.txt)
 - [AndroidX and Jetpack Compose](https://developer.android.com/jetpack) by Google, [Apache License 2.0](licenses/Apache-2.0.txt)
 - [Kotlin coroutines](https://github.com/Kotlin/kotlinx.coroutines) by JetBrains, [Apache License 2.0](licenses/Apache-2.0.txt)
 - [Figtree font](https://github.com/erikdkennedy/figtree) by Erik Kennedy, [SIL Open Font License 1.1](licenses/Figtree-OFL.txt)

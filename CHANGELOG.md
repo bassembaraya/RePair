@@ -1,5 +1,16 @@
 # What's new in RePair
 
+## 1.0.34 (2026-10-12)
+
+- Map behind the wheel no longer touches Google Maps when it's already navigating, so a route
+  you started keeps going.
+- New installs: "Disconnect Wi-Fi if connected" and "Block saved networks during the run" are now
+  on from the start. If you already use RePair, your settings stay as they are.
+- New: Ghostack, RePair's own helper. No Shizuku needed: set it up once, and after a restart it
+  connects again by itself on Wi-Fi. Shizuku still works (Settings > Helper).
+- RePair's notifications now always show in full, with an "Open RePair" button, and they clear
+  when you open RePair.
+
 ## 1.0.33 (2026-10-09)
 
 - Map behind the wheel is back. Google Play Protect no longer blocks installing RePair because
