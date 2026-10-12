@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.35 (2026-10-12)
+
+- Ghostack: the box at the top now looks the same as in the developer's other apps.
+- Ghostack already set up in another app? One button, "Use Ghostack pairing", then Allow.
+- Ghostack: "Waiting for the pairing code" now shows in full, with Open and Cancel buttons.
+- Ghostack: setting up through another app works better on phones where port 5555 is open, and
+  says clearly when Wireless debugging must be turned on once.
+- Ghostack stops by itself when RePair is uninstalled.
+
 ## 1.0.34 (2026-10-12)
 
 - Map behind the wheel no longer touches Google Maps when it's already navigating, so a route
