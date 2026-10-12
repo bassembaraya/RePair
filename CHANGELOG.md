@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.36 (2026-10-12)
+
+- Ghostack: the card that offers Ghostack now also has "Use Shizuku", to keep using Shizuku. The
+  card then doesn't show again.
+
 ## 1.0.35 (2026-10-12)
 
 - Ghostack: the box at the top now looks the same as in the developer's other apps.
