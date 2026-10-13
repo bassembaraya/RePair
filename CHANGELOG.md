@@ -1,5 +1,10 @@
 # What's new in RePair
 
+## 1.0.38 (2026-10-13)
+
+- Ghostack now reconnects by itself right after USB debugging is switched back on (for example
+  after Masker), instead of showing "connecting..." when you open the app.
+
 ## 1.0.37 (2026-10-12)
 
 ### New: Ghostack, RePair's own helper
