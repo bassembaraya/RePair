@@ -2,8 +2,13 @@
 
 ## 1.0.38 (2026-10-13)
 
+- Ghostack setup is now right under the status at the top of the main screen, the same as in my
+  other apps. Tap the status to jump to it.
 - Ghostack now reconnects by itself right after USB debugging is switched back on (for example
   after Masker), instead of showing "connecting..." when you open the app.
+- Ghostack also reconnects by itself right after RePair updates.
+- While an app that blocks debugging is open (for example a banking app with Masker), Ghostack
+  waits and doesn't switch debugging back on. RePair shows "Paused while a protected app is open".
 
 ## 1.0.37 (2026-10-12)
 
