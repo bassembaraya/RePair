@@ -2,14 +2,35 @@
 
 ## 1.0.39 (2026-10-14)
 
-- **More than one car:** tick all your cars in the car list. Each run uses the one that's
-  connected, so you don't have to choose again when you change cars.
-- **Each car remembers its Wi-Fi** after Android Auto connects, so RePair no longer waits on
-  another Wi-Fi by mistake. If your car's Wi-Fi changes, tap the unlink icon next to it in the
-  car list.
-- **Three settings are now on for everyone:** Disconnect Wi-Fi if connected, Block saved networks
-  during the run, and Turn Bluetooth off and on. Many users needed all three on to connect.
-  They're in Settings > Before a run.
+### More than one car
+
+If you drive more than one car, RePair can now remember all of them.
+
+- Tap **Change** on the car card and tick every car you use.
+- RePair uses the car your phone is connected to over Bluetooth.
+- You don't have to choose your car again when you switch cars.
+- The card's title shows **Connected car** or **Last connected car**.
+
+### Each car remembers its Wi-Fi
+
+Before, RePair could wait for nothing when your phone was on another Wi-Fi, like a weak home
+Wi-Fi.
+
+- After Android Auto connects once, RePair remembers that car's Wi-Fi.
+- Next time, it waits only when your phone is really on your car's Wi-Fi.
+- If your car's Wi-Fi changes (for example after a car update), open the car list and tap the
+  unlink icon next to it.
+
+### Wi-Fi and Bluetooth during a run
+
+These three settings are now on:
+
+- **Disconnect Wi-Fi if connected**
+- **Block saved networks during the run**
+- **Turn Bluetooth off and on before connecting the car**
+
+They help your car connect: your phone leaves other Wi-Fi networks, and the car's Bluetooth
+connects again from the start. You can turn them off in **Settings > Before a run**.
 
 ## 1.0.38 (2026-10-13)
 
@@ -25,17 +46,25 @@
 
 ### New: Ghostack, RePair's own helper
 
-RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
-airplane mode). For that it needs a helper with more rights than a normal app.
+**What it is:** RePair changes a few phone settings that normal apps can't change, like the Wi-Fi
+country and airplane mode. To do that, it needs a helper with more rights. Ghostack is that
+helper, built into RePair.
 
-- **Ghostack is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
-  No computer needed.
-- **It connects again by itself** after a restart, when the phone joins Wi-Fi.
-- **It's optional.** RePair needs one helper: Ghostack or [Shizuku](https://shizuku.rikka.app/).
-  Shizuku still works if you prefer it: **Settings > Helper**. (Shizuku has to be started again
-  after every restart. Ghostack doesn't.)
-- **Already set up in another of your apps?** Tap **Use Ghostack pairing**, then **Allow**. No
-  code needed.
+**Why use it:** before, RePair needed the Shizuku app, and Shizuku stops every time the phone
+restarts. Ghostack starts again by itself after a restart, when the phone joins Wi-Fi.
+
+**How to set it up (once, no computer needed):**
+
+1. Connect your phone to Wi-Fi.
+2. Open RePair and tap **Pair**. If Developer options are off, RePair shows you how to turn them
+   on.
+3. In Wireless debugging, tap **Pair device with pairing code**.
+4. Type the code into RePair's notification.
+
+Already set up Ghostack in another of my apps? Tap **Use Ghostack pairing**, then **Allow**. No
+code needed.
+
+You can still use [Shizuku](https://shizuku.rikka.app/) if you prefer: **Settings > Helper**.
 
 ### Also in this version
 
