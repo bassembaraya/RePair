@@ -1,37 +1,5 @@
 # What's new in RePair
 
-## 1.0.39 (2026-10-14)
-
-### More than one car
-
-If you drive more than one car, RePair can now remember all of them.
-
-- Tap **Change** on the car card and tick every car you use.
-- RePair uses the car your phone is connected to over Bluetooth.
-- You don't have to choose your car again when you switch cars.
-- The card's title shows **Connected car** or **Last connected car**.
-
-### Each car remembers its Wi-Fi
-
-Before, RePair could wait for nothing when your phone was on another Wi-Fi, like a weak home
-Wi-Fi.
-
-- After Android Auto connects once, RePair remembers that car's Wi-Fi.
-- Next time, it waits only when your phone is really on your car's Wi-Fi.
-- If your car's Wi-Fi changes (for example after a car update), open the car list and tap the
-  unlink icon next to it.
-
-### Wi-Fi and Bluetooth during a run
-
-These three settings are now on:
-
-- **Disconnect Wi-Fi if connected**
-- **Block saved networks during the run**
-- **Turn Bluetooth off and on before connecting the car**
-
-They help your car connect: your phone leaves other Wi-Fi networks, and the car's Bluetooth
-connects again from the start. You can turn them off in **Settings > Before a run**.
-
 ## 1.0.38 (2026-10-13)
 
 - Ghostack setup is now right under the status at the top of the main screen, the same as in my
