@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.40 (2026-10-17)
+
+### Fixed
+
+- Ghostack no longer drops after RePair is updated or reinstalled.
+
 ## 1.0.39 (2026-10-15)
 
 ### More than one car
