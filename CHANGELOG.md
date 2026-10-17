@@ -1,5 +1,21 @@
 # What's new in RePair
 
+## 1.0.41 (2026-10-17)
+
+### Map behind the wheel
+
+- Works again with the newest Android Auto and Google Maps.
+- The short route starts without opening Maps on your phone, so you can keep using it, and nothing shows in Recents.
+- The route is ended as soon as it starts, so the whole thing takes about 12 s.
+
+### Fixed
+
+- Ghostack now tries a few more times to come back by itself after it drops, for example when you plug in a car's cable or leave a Wi-Fi. Before, it tried once and could stay off until you tapped Fix.
+
+### Changed
+
+- The icons at the top are in a new order: Share the run log, About, Help, Settings. About, Help and Settings sit in the same places as in all our apps.
+
 ## 1.0.40 (2026-10-17)
 
 ### Fixed
