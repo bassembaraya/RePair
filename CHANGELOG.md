@@ -1,5 +1,13 @@
 # What's new in RePair
 
+## 1.0.42 (2026-10-18)
+
+### New
+
+- The update card now shows what's new in an update before you tap Update. Long notes scroll inside the card.
+- You can turn the update card off in Settings > Updates. It's on.
+- After updating, What's new tells you what changed, also for 1.0.41.
+
 ## 1.0.41 (2026-10-17)
 
 ### Map behind the wheel
