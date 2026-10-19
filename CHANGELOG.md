@@ -1,5 +1,17 @@
 # What's new in RePair
 
+## 1.0.44 (2026-10-19)
+
+### Look
+
+- Button borders are easier to see in dark mode.
+- Cards, boxes and borders are easier to see in light mode.
+
+### Helper
+
+- Picking Ghostack, Shizuku or Off shows at once; the switch happens in the background.
+- Picking Ghostack again after Off takes your other app's pairing by itself.
+
 ## 1.0.43 (2026-10-19)
 
 ### Pick your helper
