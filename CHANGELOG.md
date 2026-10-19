@@ -1,5 +1,15 @@
 # What's new in RePair
 
+## 1.0.43 (2026-10-19)
+
+### Pick your helper
+
+- Choose Ghostack, Shizuku or Off, on the main screen or in Settings > Helper.
+- Picked Ghostack? The same box asks how to pair: use the pairing of another of your apps, or a code.
+- Picked Shizuku? If it isn't installed or running, RePair tells you what to do first.
+- Settings has Appearance (Light, Dark, System) and Helper.
+- Settings > Helper lists the apps using Ghostack. Tap Revoke to stop one.
+
 ## 1.0.42 (2026-10-18)
 
 ### New
