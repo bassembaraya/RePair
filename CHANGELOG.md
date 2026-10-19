@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.45 (2026-10-20)
+
+### Look
+
+- The status box at the top is easier to tap.
+
 ## 1.0.44 (2026-10-19)
 
 ### Look
