@@ -1,5 +1,17 @@
 # What's new in RePair
 
+## 1.0.46 (2026-10-20)
+
+### Helper
+
+- Setting up the helper is easier: RePair picks one for you the first time you open it.
+- Tapping the status box does the next step.
+- Shorter setup steps that say where to go.
+
+### Look
+
+- Help is easier to read: each part in its own box.
+
 ## 1.0.45 (2026-10-20)
 
 ### Look
