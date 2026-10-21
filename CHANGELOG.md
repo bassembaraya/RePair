@@ -6,6 +6,7 @@
 
 - Icons next to every setting and step, so you see what each one is about at a glance.
 - Appearance shows System, Light and Dark with their icons.
+- In Help, each message shows an icon: a warning for a problem, an info mark for what is going on, a tick when it worked, a bulb for a tip.
 
 ## 1.0.46 (2026-10-20)
 
