@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.47 (2026-10-21)
+
+### Look
+
+- Icons next to every setting and step, so you see what each one is about at a glance.
+- Appearance shows System, Light and Dark with their icons.
+
 ## 1.0.46 (2026-10-20)
 
 ### Helper
