@@ -8,6 +8,11 @@
 - Appearance shows System, Light and Dark with their icons.
 - In Help, each message shows an icon: a warning for a problem, an info mark for what is going on, a tick when it worked, a bulb for a tip.
 
+### Fixed
+
+- Ghostack starts by itself more reliably after the phone restarts, also when you have other apps that use it.
+- Wireless debugging is put back the way you had it. Before, it could stay on after a restart.
+
 ## 1.0.46 (2026-10-20)
 
 ### Helper
