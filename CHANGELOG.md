@@ -1,12 +1,16 @@
 # What's new in RePair
 
-## 1.0.47 (2026-10-21)
+## 1.0.47 (2026-10-22)
 
 ### Look
 
 - Icons next to every setting and step, so you see what each one is about at a glance.
 - Appearance shows System, Light and Dark with their icons.
 - In Help, each message shows an icon: a warning for a problem, an info mark for what is going on, a tick when it worked, a bulb for a tip.
+- Every page was checked and tidied: rows, icons and buttons line up evenly.
+- The checklist at the top no longer jumps when the app opens.
+- Every problem line has a button that fixes it, for example allow notifications, get Tasker or set up the helper.
+- "Get Shizuku" opens the store when Shizuku isn't installed.
 
 ### Fixed
 
