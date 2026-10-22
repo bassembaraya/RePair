@@ -1,5 +1,23 @@
 # What's new in RePair
 
+## 1.0.48 (2026-10-22)
+
+### New
+
+- For bank apps that won't open with Developer options on: **Settings > Helper > Debugging off between runs**.
+- Developer options and USB debugging stay off. RePair turns them on only while it runs, and off again after.
+- It works only with Ghostack. If you use Shizuku, RePair asks before switching to Ghostack.
+- After the phone restarts, connect to Wi-Fi once.
+- It's a workaround and may not be stable yet. It's off unless you turn it on.
+
+### Fixed
+
+- Setting up Ghostack on a new phone no longer gets stuck on "connecting".
+- Pair waits until you're on Wi-Fi, and says so.
+- The pairing notification tells you each step, from turning on Developer options to the code.
+- After a restart without Wi-Fi, RePair says Ghostack needs Wi-Fi once.
+- Shizuku is offered only when it's installed.
+
 ## 1.0.47 (2026-10-22)
 
 ### Look
