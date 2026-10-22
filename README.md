@@ -100,6 +100,9 @@ fix (the car, the phone, or the phone's region).
 - Wi-Fi and Developer options, to set up **Ghostack** once: RePair's own helper, set up on the
   phone, no computer needed. After a restart it connects again by itself when the phone joins
   Wi-Fi. Prefer [Shizuku](https://shizuku.rikka.app/)? It still works (Settings > Helper).
+  A bank app refuses to open with Developer options on? Turn on **Debugging off between runs**
+  (Settings > Helper, Ghostack only): they stay off, and RePair turns them on only while it runs.
+  It's a workaround and may not be stable yet.
 - A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
   **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
 - Your car paired with your phone over Bluetooth.
@@ -110,7 +113,8 @@ fix (the car, the phone, or the phone's region).
    asks, allow installing from your browser or file manager.
 2. Open RePair and set up **Ghostack**: connect to Wi-Fi, tap **Pair**, then *Pair device with
    pairing code* in Wireless debugging, and type the code in RePair's notification. RePair shows
-   how to turn on Developer options if they're off. (Prefer Shizuku? Tap *Use Shizuku instead*.)
+   how to turn on Developer options if they're off, and its notification tells you each step.
+   (Prefer Shizuku? Tap *Use Shizuku instead*, shown when Shizuku is installed.)
 3. Tap **Choose**, allow Nearby devices, and pick your car.
 4. That's it! The checklist on the main screen tells you if anything is still missing.
 
