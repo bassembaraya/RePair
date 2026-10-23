@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.51 (2026-10-24)
+
+### Fixed
+
+- Picking the helper again after **Off** connects at once, without the setup guide flashing up.
+
 ## 1.0.50 (2026-10-24)
 
 ### Fixed
