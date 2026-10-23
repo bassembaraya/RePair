@@ -1,5 +1,16 @@
 # What's new in RePair
 
+## 1.0.49 (2026-10-23)
+
+### Fixed
+
+- "Debugging off between runs" works together with another app that has the same option: the last one done turns them off.
+- If you turn notifications off when pairing asks, then turn them on, pairing goes on by itself when you come back.
+- The "Apps using Ghostack" list is up to date when you come back to Settings.
+- The Allow and Revoke boxes follow your light or dark look.
+- The Revoke box says which app stops using Ghostack.
+- When Ghostack isn't connected on Wi-Fi, it says "Tap Connect".
+
 ## 1.0.48 (2026-10-22)
 
 ### New
