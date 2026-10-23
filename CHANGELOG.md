@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.50 (2026-10-24)
+
+### Fixed
+
+- If you uninstall RePair, Ghostack stops by itself.
+- "Debugging off between runs" turns on only when Ghostack is really connected. If it can't, it tells you why.
+- If you use Shizuku and back out of pairing, Shizuku stays as it was.
+- The Share log button works as soon as there is something in the log.
+
 ## 1.0.49 (2026-10-23)
 
 ### Fixed
