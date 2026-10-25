@@ -1,7 +1,7 @@
 # RePair 🚗📶
 
 **One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
-channel.** Built for Samsung phones. No root: uses Ghostack, RePair's own helper (or Shizuku).
+channel.** Built for Samsung phones. No root: uses Vexer, RePair's own helper (or Shizuku).
 
 How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi follows your
 phone's own region and the car's channel opens. Once Android Auto connects, everything goes back
@@ -10,19 +10,19 @@ to normal and Android Auto keeps working.
 > ⚠️ **Use at your own risk.** RePair changes system settings through its helper. I'm not
 > responsible for any damage, data loss or a bricked phone.
 
-## Ghostack, RePair's helper 👻
+## Vexer, RePair's helper 🤖
 
 RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
 airplane mode). For that it needs a helper with more rights than a normal app.
 
-- **Ghostack is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
+- **Vexer is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
   No computer needed.
 - **It connects again by itself** after a restart, when the phone joins Wi-Fi.
-- **It's optional.** RePair needs one helper: Ghostack or [Shizuku](https://shizuku.rikka.app/).
+- **It's optional.** RePair needs one helper: Vexer or [Shizuku](https://shizuku.rikka.app/).
   Shizuku still works if you prefer it: **Settings > Helper**. (Shizuku has to be started again
-  after every restart. Ghostack doesn't.)
-- **Already set up in another of your apps?** Tap **Use Ghostack pairing**, then **Allow**. No
-  code needed.
+  after every restart. Vexer doesn't.)
+- **Already set up in another of your apps?** Tap **Pair** (and **Allow** if it asks). No code
+  needed.
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
@@ -97,11 +97,12 @@ fix (the car, the phone, or the phone's region).
 
 - Android 14 or newer, with the latest system updates. It installs on Android 12 and 13 too, but
   the Wi-Fi country switch it needs may be missing there, and RePair tells you if it is.
-- Wi-Fi and Developer options, to set up **Ghostack** once: RePair's own helper, set up on the
+- Wi-Fi and Developer options, to set up **Vexer** once: RePair's own helper, set up on the
   phone, no computer needed. After a restart it connects again by itself when the phone joins
   Wi-Fi. Prefer [Shizuku](https://shizuku.rikka.app/)? It still works (Settings > Helper).
   A bank app refuses to open with Developer options on? Turn on **Debugging off between runs**
-  (Settings > Helper, Ghostack only): they stay off, and RePair turns them on only while it runs.
+  (Settings > Helper, Vexer only): they stay off, and RePair turns them on for each run and off
+  again when the car disconnects.
   It's a workaround and may not be stable yet.
 - A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
   **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
@@ -111,7 +112,7 @@ fix (the car, the phone, or the phone's region).
 
 1. Download `RePair-x.y.z.apk` from [Releases](../../releases/latest) and install it. If Android
    asks, allow installing from your browser or file manager.
-2. Open RePair and set up **Ghostack**: connect to Wi-Fi, tap **Pair**, then *Pair device with
+2. Open RePair and set up **Vexer**: connect to Wi-Fi, tap **Pair**, then *Pair device with
    pairing code* in Wireless debugging, and type the code in RePair's notification. RePair shows
    how to turn on Developer options if they're off, and its notification tells you each step.
    (Prefer Shizuku? Tap *Use Shizuku instead*, shown when Shizuku is installed.)
@@ -130,7 +131,7 @@ fix (the car, the phone, or the phone's region).
   - `%repair_status`: `true` if the run worked (or Android Auto was already connected), `false`
     if it failed
   - `%repair_result`: a few words on how it ended, e.g. `Android Auto connected` or
-    `Ghostack not connected`
+    `Vexer not connected`
   - `%repair_airplane_on`: `true` if the run turned airplane mode on, `false` if it stopped
     before that
   - `%repair_airplane_off`: `true` if airplane mode is off when the run ends, `false` if it's

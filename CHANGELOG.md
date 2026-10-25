@@ -1,5 +1,25 @@
 # What's new in RePair
 
+## 1.0.52 (2026-10-25)
+
+### Changed
+
+- Ghostack is now called **Vexer**, with a little robot icon. It's the same helper: nothing to set up again.
+- The status at the top starts with a capital: "Vexer: Connected".
+- Turning on "Debugging off between runs" now says debugging goes off again when the car disconnects, the same as its line in Settings.
+
+### Fixed
+
+- "Debugging off between runs" now turns Wireless debugging off too. Before, it stayed on if you had turned it on yourself, and some bank apps still refused to open.
+- "Debugging off between runs" can't be turned on during a run any more. Before, it stopped the helper in the middle of the run.
+- It also waits while another app is using USB debugging.
+- A new run that starts while RePair still waits for the car to leave keeps debugging on until the run ends. Before, the car leaving in the new run turned it off mid-run.
+- If RePair is stopped during a run, debugging is turned back off the next time RePair starts.
+- Picking **Off** as the helper keeps "Debugging off between runs" as you set it. Only Shizuku turns it off.
+- The switch in **Settings > Helper** shows the right state when it changes by itself.
+- **Connect** works without Wi-Fi when it can.
+- Picking Shizuku while Vexer works now asks Shizuku first. If you say no, or Shizuku isn't running, Vexer stays picked and keeps working. Before, Vexer stopped and nothing worked.
+
 ## 1.0.51 (2026-10-24)
 
 ### Fixed
