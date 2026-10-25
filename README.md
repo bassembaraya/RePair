@@ -217,6 +217,7 @@ RePair is built with these great open-source projects:
 - [spake2-java](https://github.com/MuntashirAkon/spake2-java) by Muntashir Al-Islam, [GNU LGPL 3.0](licenses/LGPL-3.0.txt) (with the [GPL 3.0](licenses/GPL-3.0.txt) it builds on)
 - [Conscrypt](https://github.com/google/conscrypt) by Google, [Apache License 2.0](licenses/Apache-2.0.txt)
 - [Bouncy Castle](https://www.bouncycastle.org), [MIT License](licenses/BouncyCastle-MIT.txt)
+- [Tabler Icons](https://tabler.io/icons) by Paweł Kuna, [MIT License](licenses/TablerIcons-MIT.txt)
 - [AndroidX and Jetpack Compose](https://developer.android.com/jetpack) by Google, [Apache License 2.0](licenses/Apache-2.0.txt)
 - [Kotlin coroutines](https://github.com/Kotlin/kotlinx.coroutines) by JetBrains, [Apache License 2.0](licenses/Apache-2.0.txt)
 - [Figtree font](https://github.com/erikdkennedy/figtree) by Erik Kennedy, [SIL Open Font License 1.1](licenses/Figtree-OFL.txt)

@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.53 (2026-10-25)
+
+### Changed
+
+- Vexer has a new icon: a fox.
+
 ## 1.0.52 (2026-10-25)
 
 ### Changed
