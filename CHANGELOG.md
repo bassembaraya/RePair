@@ -1,5 +1,18 @@
 # What's new in RePair
 
+## 1.0.55 (2026-10-27)
+
+### Fixed
+
+- After a restart, Vexer now starts on any Wi-Fi, even one without internet, like a car's.
+- On a new Wi-Fi, Vexer waits for your answer to Android's wireless debugging question instead of giving up.
+- If Vexer's pairing is removed, RePair stays on Vexer and asks you to pair again, instead of switching to Shizuku.
+- After pairing, Wireless debugging turns itself off again, also after you allow a new Wi-Fi for it.
+- If you leave Android's wireless debugging question unanswered or tap Deny, it isn't asked again and again. Opening RePair asks again.
+- On phones that turn wireless debugging off while they ask (stock Android), Vexer now waits for your Allow.
+- Pairing with USB debugging off now works: RePair turns USB debugging on, as Vexer needs it.
+- With "Reconnect Vexer automatically" off, nothing reconnects after a restart either.
+
 ## 1.0.54 (2026-10-26)
 
 ### Changed
