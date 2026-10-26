@@ -1,5 +1,22 @@
 # What's new in RePair
 
+## 1.0.54 (2026-10-26)
+
+### Changed
+
+- When your car doesn't connect and the phone is on another car's Bluetooth, RePair says which car.
+- If the helper stops during a run, the log says why, for example a USB cable was plugged in.
+- Updating waits until a run is done.
+- Clearer messages everywhere, and they name the helper you use (Vexer or Shizuku).
+- The car card shows the RePair car in the app's colors, in light and dark.
+- Vexer comes back by itself after a USB cable or USB mode change.
+- RePair asks once to run without battery limits, so Vexer can come back on its own. It's your choice.
+- With no Wi-Fi after a restart, RePair says Vexer needs Wi-Fi once, instead of "Connecting...".
+
+### Fixed
+
+- Vexer starts again by itself after an update, even when the phone put RePair to sleep.
+
 ## 1.0.53 (2026-10-25)
 
 ### Changed
