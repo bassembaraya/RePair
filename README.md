@@ -102,7 +102,7 @@ fix (the car, the phone, or the phone's region).
   Wi-Fi. Prefer [Shizuku](https://shizuku.rikka.app/)? It still works (Settings > Helper).
   A bank app refuses to open with Developer options on? Turn on **Debugging off between runs**
   (Settings > Helper, Vexer only): they stay off, and RePair turns them on for each run and off
-  again when the car disconnects.
+  again when the run ends.
   It's a workaround and may not be stable yet.
 - A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
   **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
