@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.56 (2026-10-27)
+
+### Fixed
+
+- With "Debugging off between runs" on, Android no longer stops RePair when the car disconnects while another of your apps is using wireless debugging.
+
 ## 1.0.55 (2026-10-27)
 
 ### Fixed
