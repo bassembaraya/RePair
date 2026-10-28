@@ -1,5 +1,17 @@
 # What's new in RePair
 
+## 1.0.57 (2026-10-28)
+
+### Changed
+
+- With "Debugging off between runs" on, developer options and USB debugging now turn off as soon as each run ends, even while Android Auto is still connected.
+- Turning on "Debugging off between runs" now works when developer options are already off.
+- The update notice shows one point per line, easier to read.
+
+### Fixed
+
+- A RePair run or status check from Tasker or the tile that fails no longer cancels the runs and checks queued after it.
+
 ## 1.0.56 (2026-10-27)
 
 ### Fixed
