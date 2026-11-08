@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.58 (2026-11-08)
+
+### Fixed
+
+- First setup: after pairing, the battery question now opens over RePair, not over the Wireless debugging page.
+- After pairing, RePair comes back to the screen you were on.
+
 ## 1.0.57 (2026-10-28)
 
 ### Changed
