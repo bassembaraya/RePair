@@ -1,5 +1,11 @@
 # What's new in RePair
 
+## 1.0.59 (2026-11-12)
+
+### New
+
+- New phones: RePair now walks you through the first setup step by step, one short page at a time. You can skip it and finish later from the main screen.
+
 ## 1.0.58 (2026-11-08)
 
 ### Fixed
