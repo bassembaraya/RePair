@@ -1,11 +1,12 @@
 # RePair 🚗📶
 
 **One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
-channel.** Built for Samsung phones. No root: uses Vexer, RePair's own helper (or Shizuku).
+channel.** Made and tested on a Samsung Galaxy S24 Ultra. It may work on other phones with Android
+15 or newer, but that isn't proven yet. No root: uses Vexer, RePair's own helper (or Shizuku).
 
-How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi follows your
-phone's own region and the car's channel opens. Once Android Auto connects, everything goes back
-to normal and Android Auto keeps working.
+How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi uses another
+country's rules and the car's channel opens. Once Android Auto connects, everything goes back to
+normal and Android Auto keeps working.
 
 > ⚠️ **Use at your own risk.** RePair changes system settings through its helper. I'm not
 > responsible for any damage, data loss or a bricked phone.
@@ -15,23 +16,23 @@ to normal and Android Auto keeps working.
 RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
 airplane mode). For that it needs a helper with more rights than a normal app.
 
-- **Vexer is RePair's own helper.** You set it up once, on the phone, with Wireless debugging.
-  No computer needed.
-- **It connects again by itself** after a restart, when the phone joins Wi-Fi.
-- **It's optional.** RePair needs one helper: Vexer or [Shizuku](https://shizuku.rikka.app/).
-  Shizuku still works if you prefer it: **Settings > Helper**. (Shizuku has to be started again
-  after every restart. Vexer doesn't.)
-- **Already set up in another of your apps?** Tap **Pair** (and **Allow** if it asks). No code
+- Vexer is RePair's own helper. You set it up once, on the phone, with Wireless debugging. No
+  computer needed.
+- It connects again by itself after a restart, when the phone joins Wi-Fi.
+- RePair needs one helper: Vexer or [Shizuku](https://shizuku.rikka.app/). Shizuku still works if
+  you prefer it: **Settings > Helper**. (Shizuku has to be started again after every restart.
+  Vexer doesn't.)
+- Already set up Vexer in another of your apps? Tap **Pair** (and **Allow** if it asks). No code
   needed.
 
 [⬇️ Download the latest version](../../releases/latest) · [What's new](CHANGELOG.md)
 
 > **Why I made RePair:** I built it to fix wireless Android Auto on my own Samsung Galaxy S24
-> Ultra (Android 16), and that's the phone it's tested on. I'm sharing it because it could be
-> useful on other Samsung phones with the same problem, and maybe on other phones too.
+> Ultra, and that's the phone it's tested on. I'm sharing it because it could help other phones
+> with the same problem.
 >
-> Feel free to try it! Just keep in mind there are no plans to support other devices, so if it
-> doesn't work on yours, it may stay that way.
+> You're welcome to try it. Just keep in mind there are no plans to support other devices, so if
+> it doesn't work on yours, it may stay that way.
 
 <p align="center">
   <img src="images/main-screen.jpg" alt="RePair main screen" height="360">
@@ -50,36 +51,47 @@ phone simply can't see the car's Wi-Fi, and Android Auto waits forever.
 
 ## What RePair does ✨
 
-With one tap, RePair makes your phone forget the mobile network's country for a moment. Wi-Fi then
-switches to your phone's own Wi-Fi country (for example India), and the 5 GHz channels open up.
-RePair reconnects the car, waits for Android Auto to connect, and turns your mobile network back on.
+With one tap, RePair makes your phone forget the mobile network's country for a moment, and Wi-Fi
+switches to a country whose rules open the car's channel:
 
-And the best part: Android Auto keeps working after that, because the phone doesn't change the
-Wi-Fi country while it's connected.
+- If your phone's own region is another country (for example a Samsung on the India CSC, INS),
+  Wi-Fi switches to that country.
+- If your phone's own region is Egypt too (the Samsung Egypt CSC, EGY), RePair shows Wi-Fi a few
+  hidden fake networks that say another country. You pick which one in Settings (United Kingdom by
+  default). They exist only inside your phone for a few seconds: nothing is sent over the air, and
+  they never show in your Wi-Fi list.
+
+Then RePair reconnects the car, waits for Android Auto to connect, and turns your mobile network
+back on. Android Auto keeps working after that, because the phone doesn't change the Wi-Fi country
+while it's connected.
+
+The run log shows the open 5 GHz channels before and after, for example
+`5 GHz is open (GB): channels 149 to 165 (5745 to 5825 MHz)`.
 
 A run takes about 30 seconds (up to a minute and a half if your car is slow to wake up).
 
-**It plays safe, too:**
-- If anything goes wrong, or you tap Stop, airplane mode is turned back off so you never lose your
-  mobile signal.
-- If Android Auto is already connected, RePair doesn't touch anything.
+If anything goes wrong, or you tap Stop, airplane mode is turned back off, so you never lose your
+mobile signal. If Android Auto is already connected, RePair doesn't touch anything.
 
 ## Will it work for you? ✅
 
-RePair doesn't add anything new to your phone: it automates a trick that already works by hand.
-So before installing it, it's worth checking that the trick works for you. Two things must be true:
+Two things matter:
 
 **1. Your car and your phone must support wireless Android Auto.** RePair can't add wireless
 Android Auto to a car or a phone that doesn't have it. It only helps when the only thing in the
 way is the Wi-Fi country.
 
-**2. Your phone's region must be a country where wireless Android Auto works.** On Samsung this
-is the phone's CSC (region software), for example **INS** (India). When the mobile signal is gone,
-the phone falls back to this region's Wi-Fi rules, and that's what opens the car's 5 GHz channel.
-If your phone's region is the same country that blocks the channel, neither the manual way nor
-RePair will help.
+**2. Your phone should have Android 15 or newer.** Older versions may not let RePair's helper
+change the Wi-Fi settings it needs (RePair tells you if so).
+
+Your phone's region (on Samsung, its CSC) can be any country. With a region like India (INS),
+RePair uses it. With Egypt (EGY), RePair uses its fake networks (tested on the S24 Ultra, at home
+and in the car).
 
 ### Test it by hand first (no app needed)
+
+This works only when your phone's own region is not Egypt (not on EGY). On EGY, skip it: there's
+no manual way, and RePair handles it.
 
 1. Turn on **airplane mode**.
 2. **Restart the phone.** It comes back still in airplane mode, without ever seeing the mobile
@@ -89,14 +101,13 @@ RePair will help.
 5. Once Android Auto is running, turn **airplane mode off**. Your mobile signal comes back, and
    Android Auto keeps working.
 
-**If this works, RePair will work for you too**, and it does all of it with one tap, with no
-restart. If Android Auto doesn't connect even this way, the problem is something RePair can't
-fix (the car, the phone, or the phone's region).
+**If this works, RePair will work for you too**, with one tap and no restart. If Android Auto
+doesn't connect even this way, the problem is something RePair can't fix (the car or the phone).
 
 ## What you need 📋
 
-- Android 14 or newer, with the latest system updates. It installs on Android 12 and 13 too, but
-  the Wi-Fi country switch it needs may be missing there, and RePair tells you if it is.
+- Android 15 or newer, with the latest system updates. It installs on Android 12 to 14 too, but
+  the Wi-Fi switch it needs may be missing there, and RePair tells you if it is.
 - Wi-Fi and Developer options, to set up **Vexer** once: RePair's own helper, set up on the
   phone, no computer needed. After a restart it connects again by itself when the phone joins
   Wi-Fi. Prefer [Shizuku](https://shizuku.rikka.app/)? It still works (Settings > Helper).
@@ -104,8 +115,9 @@ fix (the car, the phone, or the phone's region).
   (Settings > Helper, Vexer only): they stay off, and RePair turns them on for each run and off
   again when the run ends.
   It's a workaround and may not be stable yet.
-- A phone region (CSC) whose country allows your car's channel. Proven so far: **India**,
-  **Sweden**, **UAE** and **Thailand**. Don't worry, RePair checks this for you.
+- Any phone region (CSC). Regions proven to open the car's channel: **India**, **Sweden**,
+  **UAE** and **Thailand**. On **Egypt (EGY)** RePair uses its fake networks instead. RePair
+  checks your region for you.
 - Your car paired with your phone over Bluetooth.
 
 ## Getting started 🚀
@@ -117,7 +129,7 @@ fix (the car, the phone, or the phone's region).
    how to turn on Developer options if they're off, and its notification tells you each step.
    (Prefer Shizuku? Tap *Use Shizuku instead*, shown when Shizuku is installed.)
 3. Tap **Choose**, allow Nearby devices, and pick your car.
-4. That's it! The checklist on the main screen tells you if anything is still missing.
+4. The checklist on the main screen tells you if anything is still missing.
 
 ## Five ways to run it 🎛️
 
@@ -126,7 +138,8 @@ fix (the car, the phone, or the phone's region).
   runs in the background (your phone needs to be unlocked).
 - **App shortcut**: long press the RePair icon, then *Run RePair in the background*.
 - **Samsung Modes and Routines**: add an action: Apps, *Open an app or do an app action*, RePair,
-  *Run RePair in the background*. It runs quietly without opening the app. Great for running it automatically when you get in the car!
+  *Run RePair in the background*. It runs quietly without opening the app, for example when
+  your phone connects to the car's Bluetooth.
 - **Tasker**: the *RePair* plugin action gives you:
   - `%repair_status`: `true` if the run worked (or Android Auto was already connected), `false`
     if it failed
@@ -158,12 +171,15 @@ results**.
 - **Turn Bluetooth off and on before connecting the car** (off by default). For cars that stay
   connected over Bluetooth through the run and then don't start Android Auto. Other Bluetooth
   devices drop for a few seconds. If a run fails that way, RePair offers to turn it on (once).
+- **Wi-Fi country for the run** (United Kingdom by default). Only used on phones set to Egypt
+  (EGY): the country RePair's fake networks say. Choices: United Kingdom, United States, United
+  Arab Emirates, Thailand and India. All five opened the car's channel in tests.
 - **Wait for Android Auto**: how long RePair waits for the phone to join the car's Wi-Fi before it
   gives up, from 10 to 60 seconds (60 by default). It stops waiting as soon as the phone joins.
 - **Map behind the wheel** (off by default). Made for the Renault Austral, which shows the map
   behind the steering wheel only after a navigation has started. When Android Auto connects,
-  RePair starts a short Google Maps navigation on the car screen and ends it after 2 seconds, so
-  the map stays there. It works with the phone locked and opens nothing on the phone. It takes
+  RePair starts a short Google Maps navigation on the car screen and ends it as soon as it
+  starts, so the map stays there. It works with the phone locked and opens nothing on the phone. It takes
   about 15 seconds, as Google Maps counts down before it starts. *Try now* runs it at home.
 - **Run results**: a toast and a notification, each set to Off, Failures only or Always.
 - **Samsung routines**: pick one of your Samsung routines to start when a run starts and one to
@@ -232,6 +248,6 @@ and don't modify or resell the app. The full terms are in [LICENSE](LICENSE).
 RePair is made by Bassem Baraya, born out of a Renault that refused to talk to an Egyptian phone.
 This repository holds the app's releases and notes; the source code isn't published.
 
-Found a bug on the S24 Ultra? [Open an issue](../../issues) with what happened
-(the log file from the share icon helps a lot), or email me at
+Found a bug? [Open an issue](../../issues) with what happened, your phone model and Android
+version (the log file from the share icon helps a lot), or email me at
 [mcbaraya.dev@gmail.com](mailto:mcbaraya.dev@gmail.com). Thanks for trying it! 🙌

@@ -1,5 +1,12 @@
 # What's new in RePair
 
+## 1.0.60 (2026-11-24)
+
+### New
+
+- RePair now works on phones set to Egypt (CSC EGY). During a run, it shows Wi-Fi a few hidden fake networks from another country, so the car's 5 GHz channel opens. They exist only inside your phone. Pick the country in **Settings > Wi-Fi country for the run** (United Kingdom by default).
+- The run log shows which 5 GHz channels are open, with their frequencies.
+
 ## 1.0.59 (2026-11-12)
 
 ### New
