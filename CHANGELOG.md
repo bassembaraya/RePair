@@ -1,5 +1,13 @@
 # What's new in RePair
 
+## 1.0.61 (2026-11-24)
+
+### New
+
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- The run log shows which 5 GHz channels are open, with their frequencies.
+- Small clean-ups and improvements.
+
 ## 1.0.60 (2026-11-24)
 
 ### New
