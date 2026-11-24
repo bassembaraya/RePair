@@ -35,8 +35,8 @@ airplane mode). For that it needs a helper with more rights than a normal app.
 > it doesn't work on yours, it may stay that way.
 
 <p align="center">
-  <img src="images/main-screen.jpg" alt="RePair main screen" height="360">
-  <img src="images/settings-v2.jpg" alt="RePair settings: Wi-Fi and Bluetooth options before a run, the wait for Android Auto, and run results" height="360">
+  <img src="images/main-screen-v3.jpg" alt="RePair main screen after a run that connected Android Auto" height="360">
+  <img src="images/settings-v3.jpg" alt="RePair settings: appearance, the Vexer helper and options before a run" height="360">
   <img src="images/samsung-routine.jpg" alt="Samsung routine: when the car's Bluetooth connects and Android Auto is disconnected, run RePair in the background" height="360">
   <img src="images/tasker-action.jpg" alt="Tasker task with the RePair plugin action" height="360">
 </p>
