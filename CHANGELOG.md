@@ -4,7 +4,7 @@
 
 ### New
 
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included. Pick the Wi-Fi country for the run in **Settings > Wi-Fi country for the run** (United Kingdom by default).
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
 - The run log shows which 5 GHz channels are open, with their frequencies.
 
 ## 1.0.59 (2026-11-12)
