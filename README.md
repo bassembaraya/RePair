@@ -52,14 +52,8 @@ phone simply can't see the car's Wi-Fi, and Android Auto waits forever.
 ## What RePair does ✨
 
 With one tap, RePair makes your phone forget the mobile network's country for a moment, and Wi-Fi
-switches to a country whose rules open the car's channel:
-
-- If your phone's own region is another country (for example a Samsung on the India CSC, INS),
-  Wi-Fi switches to that country.
-- If your phone's own region is Egypt too (the Samsung Egypt CSC, EGY), RePair shows Wi-Fi a few
-  hidden fake networks that say another country. You pick which one in Settings (United Kingdom by
-  default). They exist only inside your phone for a few seconds: nothing is sent over the air, and
-  they never show in your Wi-Fi list.
+switches to a country whose rules open the car's channel. This works whatever your phone's region
+(CSC) is, Egypt (EGY) included.
 
 Then RePair reconnects the car, waits for Android Auto to connect, and turns your mobile network
 back on. Android Auto keeps working after that, because the phone doesn't change the Wi-Fi country
@@ -85,8 +79,7 @@ way is the Wi-Fi country.
 change the Wi-Fi settings it needs (RePair tells you if so).
 
 Your phone's region (on Samsung, its CSC) can be any country. With a region like India (INS),
-RePair uses it. With Egypt (EGY), RePair uses its fake networks (tested on the S24 Ultra, at home
-and in the car).
+RePair uses it. Egypt (EGY) works too (tested on the S24 Ultra, at home and in the car).
 
 ### Test it by hand first (no app needed)
 
@@ -116,8 +109,7 @@ doesn't connect even this way, the problem is something RePair can't fix (the ca
   again when the run ends.
   It's a workaround and may not be stable yet.
 - Any phone region (CSC). Regions proven to open the car's channel: **India**, **Sweden**,
-  **UAE** and **Thailand**. On **Egypt (EGY)** RePair uses its fake networks instead. RePair
-  checks your region for you.
+  **UAE**, **Thailand** and **Egypt (EGY)**. RePair checks your region for you.
 - Your car paired with your phone over Bluetooth.
 
 ## Getting started 🚀
@@ -172,7 +164,7 @@ results**.
   connected over Bluetooth through the run and then don't start Android Auto. Other Bluetooth
   devices drop for a few seconds. If a run fails that way, RePair offers to turn it on (once).
 - **Wi-Fi country for the run** (United Kingdom by default). Only used on phones set to Egypt
-  (EGY): the country RePair's fake networks say. Choices: United Kingdom, United States, United
+  (EGY): the Wi-Fi country RePair uses during the run. Choices: United Kingdom, United States, United
   Arab Emirates, Thailand and India. All five opened the car's channel in tests.
 - **Wait for Android Auto**: how long RePair waits for the phone to join the car's Wi-Fi before it
   gives up, from 10 to 60 seconds (60 by default). It stops waiting as soon as the phone joins.
