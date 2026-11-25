@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.64 (2026-11-25)
+
+### New
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- Faster and more reliable runs.
+
+### Fixed
+- Clearer messages and small fixes.
+
 ## 1.0.63 (2026-11-25)
 
 ### New
