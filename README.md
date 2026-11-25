@@ -11,6 +11,12 @@ normal and Android Auto keeps working.
 > ⚠️ **Use at your own risk.** RePair changes system settings through its helper. I'm not
 > responsible for any damage, data loss or a bricked phone.
 
+## Watch how to set it up 🎬
+
+Every step from the first open until RePair is ready for the car, in about 2 minutes:
+
+https://github.com/user-attachments/assets/340f23b9-8416-4a5c-8042-273fdb70092c
+
 ## Vexer, RePair's helper 🤖
 
 RePair needs to change a few phone settings that normal apps can't change (the Wi-Fi country and
@@ -114,7 +120,7 @@ doesn't connect even this way, the problem is something RePair can't fix (the ca
 
 ## Getting started 🚀
 
-🎬 **Watch how to set it up:** [setup video](videos/RePair-setup.mp4) (2 minutes, every step from the first open until it's ready for the car).
+🎬 New to RePair? [Watch the setup video](#watch-how-to-set-it-up-) first.
 
 1. Download `RePair-x.y.z.apk` from [Releases](../../releases/latest) and install it. If Android
    asks, allow installing from your browser or file manager.
