@@ -114,6 +114,8 @@ doesn't connect even this way, the problem is something RePair can't fix (the ca
 
 ## Getting started 🚀
 
+🎬 **Watch how to set it up:** [setup video](videos/RePair-setup.mp4) (2 minutes, every step from the first open until it's ready for the car).
+
 1. Download `RePair-x.y.z.apk` from [Releases](../../releases/latest) and install it. If Android
    asks, allow installing from your browser or file manager.
 2. Open RePair and set up **Vexer**: connect to Wi-Fi, tap **Pair**, then *Pair device with
