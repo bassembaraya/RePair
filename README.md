@@ -168,9 +168,6 @@ results**.
 - **Block saved networks during the run** (needs the switch above, on by default). Also blocks them when Wi-Fi
   wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
   during the run.
-- **Turn Bluetooth off and on before connecting the car** (off by default). For cars that stay
-  connected over Bluetooth through the run and then don't start Android Auto. Other Bluetooth
-  devices drop for a few seconds. If a run fails that way, RePair offers to turn it on (once).
 - **Wi-Fi country for the run** (United Kingdom by default). Only used on phones set to Egypt
   (EGY): the Wi-Fi country RePair uses during the run. Choices: United Kingdom, United States, United
   Arab Emirates, Thailand and India. All five opened the car's channel in tests.

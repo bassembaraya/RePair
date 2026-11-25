@@ -1,5 +1,16 @@
 # What's new in RePair
 
+## 1.0.65 (2026-11-25)
+
+### New
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+
+### Fixed
+- Cars that stay connected over Bluetooth now start Android Auto more reliably.
+- RePair turns Bluetooth off and on by itself when needed. The setting for it is gone.
+- Less waiting during a run.
+- Small clean-ups and improvements.
+
 ## 1.0.64 (2026-11-25)
 
 ### New
