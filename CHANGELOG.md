@@ -1,5 +1,14 @@
 # What's new in RePair
 
+## 1.0.66 (date of the GitHub release)
+
+### New
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+
+### Fixed
+- Fixed Android Auto sometimes not connecting when one of your saved Wi-Fi networks was nearby.
+- RePair always disconnects your Wi-Fi and keeps your saved Wi-Fi off during a run. The two settings for it are gone.
+
 ## 1.0.65 (2026-11-25)
 
 ### New

@@ -162,12 +162,6 @@ results**.
 - **On a call** (Wait by default). Airplane mode would end your call, so RePair waits for it to
   end before it starts, for up to 60 minutes (you can set 5 to 120). You can also choose Run
   anyway or Don't run.
-- **Disconnect Wi-Fi if connected** (on by default). RePair disconnects from the network and
-  keeps saved networks from rejoining until the run ends. Without it, a connected Wi-Fi stops
-  the run.
-- **Block saved networks during the run** (needs the switch above, on by default). Also blocks them when Wi-Fi
-  wasn't connected at the start, so the phone doesn't jump onto your home Wi-Fi or a hotspot
-  during the run.
 - **Wi-Fi country for the run** (United Kingdom by default). Only used on phones set to Egypt
   (EGY): the Wi-Fi country RePair uses during the run. Choices: United Kingdom, United States, United
   Arab Emirates, Thailand and India. All five opened the car's channel in tests.
