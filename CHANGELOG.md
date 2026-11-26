@@ -8,7 +8,7 @@
 ### Fixed
 - RePair now blocks your saved Wi-Fi networks one by one during a run, which is more reliable. This fixes Android Auto sometimes not connecting when one of them was nearby.
 - RePair always disconnects your Wi-Fi and keeps your saved Wi-Fi off during a run. The two settings for it are gone.
-- If RePair is force stopped during a run, your saved Wi-Fi won't connect by itself until you open RePair again.
+- If RePair is force stopped during a run, your saved Wi-Fi won't connect by itself until you open or run RePair again.
 
 ## 1.0.65 (2026-11-25)
 
