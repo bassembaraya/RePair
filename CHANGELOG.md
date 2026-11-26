@@ -1,6 +1,6 @@
 # What's new in RePair
 
-## 1.0.66 (date of the GitHub release)
+## 1.0.66 (2026-11-26)
 
 ### New
 - RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
