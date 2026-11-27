@@ -14,7 +14,7 @@
 ## 1.0.66 (2026-11-26)
 
 ### New
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 
 ### Fixed
 - RePair now blocks your saved Wi-Fi networks one by one during a run, which is more reliable. This fixes Android Auto sometimes not connecting when one of them was nearby.
@@ -24,7 +24,7 @@
 ## 1.0.65 (2026-11-25)
 
 ### New
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 
 ### Fixed
 - Cars that stay connected over Bluetooth now start Android Auto more reliably.
@@ -35,7 +35,7 @@
 ## 1.0.64 (2026-11-25)
 
 ### New
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 - Faster and more reliable runs.
 
 ### Fixed
@@ -45,7 +45,7 @@
 
 ### New
 
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 - The run log shows which 5 GHz channels are open, with their frequencies.
 - Small clean-ups and improvements.
 
@@ -53,7 +53,7 @@
 
 ### New
 
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 - The run log shows which 5 GHz channels are open, with their frequencies.
 - Small clean-ups and improvements.
 
@@ -61,7 +61,7 @@
 
 ### New
 
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 - The run log shows which 5 GHz channels are open, with their frequencies.
 - Small clean-ups and improvements.
 
@@ -69,7 +69,7 @@
 
 ### New
 
-- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+- RePair now works whatever your phone's region (CSC) is.
 - The run log shows which 5 GHz channels are open, with their frequencies.
 
 ## 1.0.59 (2026-11-12)
