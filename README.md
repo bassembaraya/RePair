@@ -1,8 +1,9 @@
 # RePair 🚗📶
 
 **One-tap fix for wireless Android Auto when your phone's Wi-Fi country blocks the car's 5 GHz
-channel.** Made and tested on a Samsung Galaxy S24 Ultra. It may work on other phones with Android
-15 or newer, but that isn't proven yet. No root: uses Vexer, RePair's own helper (or Shizuku).
+channel.** **Made for Samsung phones with Android 15 or newer** (tested on Galaxy phones). Other
+brands may or may not work: not tested, try at your own risk. No root: uses Vexer, RePair's own
+helper (or Shizuku).
 
 How it works: RePair briefly takes the mobile network out of the picture, so Wi-Fi uses another
 country's rules and the car's channel opens. Once Android Auto connects, everything goes back to
