@@ -1,5 +1,16 @@
 # What's new in RePair
 
+## 1.0.67 (2026-11-27)
+
+### New
+- RePair now works whatever your phone's region (CSC) is, Egypt (EGY) included.
+
+### Fixed
+- On phones set to Egypt (EGY), RePair now fixes it by itself when the Wi-Fi country doesn't switch the first time.
+- On phones set to Egypt (EGY), fixed a rare problem where Wi-Fi went back to Egypt while the car was connecting.
+- RePair no longer stops partway when the phone's screen turns off.
+- The "RePair is free" message now shows once every 3 days.
+
 ## 1.0.66 (2026-11-26)
 
 ### New
