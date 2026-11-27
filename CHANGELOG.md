@@ -1,5 +1,17 @@
 # What's new in RePair
 
+## 1.0.68 (2026-11-27)
+
+### New
+- RePair now works whatever your phone's region (CSC) is.
+
+### Fixed
+- When the Wi-Fi country doesn't switch the first time, RePair now fixes it by itself.
+- Fixed a rare problem where the Wi-Fi country switched back while the car was connecting.
+- RePair no longer stops partway when the phone's screen turns off.
+- The "RePair is free" message now shows once every 3 days.
+- Small clean-ups and improvements.
+
 ## 1.0.67 (2026-11-27)
 
 ### New
